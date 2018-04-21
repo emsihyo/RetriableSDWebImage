@@ -273,6 +273,9 @@
 		0AFC37372089DEC800D2DCC1 /* RetriableSDWebImageResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetriableSDWebImageResponse.m; sourceTree = "<group>"; };
 		0AFC374A2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+RetriableSDWebImage.h"; sourceTree = "<group>"; };
 		0AFC374B2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+RetriableSDWebImage.m"; sourceTree = "<group>"; };
+		0AFEF853208B901600D6FEC4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		0AFEF854208B901600D6FEC4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		0AFEF855208B901600D6FEC4 /* RetriableSDWebImage.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RetriableSDWebImage.podspec; sourceTree = SOURCE_ROOT; };
 		0DBDD262D119883458F5F21E /* Pods-RetriableSDWebImage watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage watchOS/Pods-RetriableSDWebImage watchOS.debug.xcconfig"; sourceTree = "<group>"; };
 		17AD33C634CF7A79FE82C539 /* Pods-RetriableSDWebImage macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage macOS/Pods-RetriableSDWebImage macOS.release.xcconfig"; sourceTree = "<group>"; };
 		239C2AE6A7877B77DFF8D820 /* Pods_RetriableSDWebImage_macOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_macOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -441,6 +444,9 @@
 				0AFC374B2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m */,
 				0AFC37322089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.h */,
 				0AFC37332089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.m */,
+				0AFEF854208B901600D6FEC4 /* LICENSE */,
+				0AFEF853208B901600D6FEC4 /* README.md */,
+				0AFEF855208B901600D6FEC4 /* RetriableSDWebImage.podspec */,
 			);
 			path = RetriableSDWebImage;
 			sourceTree = "<group>";
