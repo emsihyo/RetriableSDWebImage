@@ -1,0 +1,1990 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		099DA071ED3CAF8A42BFFA6B /* Pods_RetriableSDWebImage_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E35EDD3C950D69E4B34090 /* Pods_RetriableSDWebImage_tvOS.framework */; };
+		0A10E0812089E8FF006E175E /* UIButton+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A10E07F2089E8FF006E175E /* UIButton+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10E0832089E8FF006E175E /* UIButton+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A10E07F2089E8FF006E175E /* UIButton+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10E0852089E8FF006E175E /* UIButton+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A10E0802089E8FF006E175E /* UIButton+RetriableSDWebImage.m */; };
+		0A10E0872089E8FF006E175E /* UIButton+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A10E0802089E8FF006E175E /* UIButton+RetriableSDWebImage.m */; };
+		0A10E08B2089EB27006E175E /* NSButton+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A10E0892089EB27006E175E /* NSButton+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10E08C2089EB27006E175E /* NSButton+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A10E08A2089EB27006E175E /* NSButton+RetriableSDWebImage.m */; };
+		0A10E08E2089EE64006E175E /* UIView+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC37332089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.m */; };
+		0A10E08F2089EE64006E175E /* UIView+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC37332089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.m */; };
+		0A10E0902089EF03006E175E /* UIView+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC37322089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10E0922089EF04006E175E /* UIView+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC37322089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10E0932089EF04006E175E /* UIView+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC37322089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10E0952089F25B006E175E /* UIView+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC37322089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10E0962089F25D006E175E /* UIView+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC37332089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.m */; };
+		0A10E0972089F26C006E175E /* UIImageView+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC374A2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10E0982089F26C006E175E /* UIImageView+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC374A2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10E0992089F26F006E175E /* UIImageView+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC374B2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m */; };
+		0A10E09A2089F270006E175E /* UIImageView+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC374B2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m */; };
+		0A10E09B2089F273006E175E /* UIButton+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A10E07F2089E8FF006E175E /* UIButton+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10E09C2089F274006E175E /* UIButton+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A10E07F2089E8FF006E175E /* UIButton+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10E09D2089F276006E175E /* UIButton+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A10E0802089E8FF006E175E /* UIButton+RetriableSDWebImage.m */; };
+		0A10E09E2089F276006E175E /* UIButton+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A10E0802089E8FF006E175E /* UIButton+RetriableSDWebImage.m */; };
+		0A10E09F2089F279006E175E /* NSButton+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A10E0892089EB27006E175E /* NSButton+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10E0A02089F27A006E175E /* NSButton+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A10E0892089EB27006E175E /* NSButton+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10E0A12089F27A006E175E /* NSButton+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A10E0892089EB27006E175E /* NSButton+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10E0A22089F27E006E175E /* NSButton+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A10E08A2089EB27006E175E /* NSButton+RetriableSDWebImage.m */; };
+		0A10E0A32089F27E006E175E /* NSButton+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A10E08A2089EB27006E175E /* NSButton+RetriableSDWebImage.m */; };
+		0A10E0A42089F27F006E175E /* NSButton+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A10E08A2089EB27006E175E /* NSButton+RetriableSDWebImage.m */; };
+		0A39EF6F208A1C17002BF53D /* SDWebImageManager+Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A39EF6D208A1C17002BF53D /* SDWebImageManager+Retriable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A39EF70208A1C17002BF53D /* SDWebImageManager+Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A39EF6D208A1C17002BF53D /* SDWebImageManager+Retriable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A39EF71208A1C17002BF53D /* SDWebImageManager+Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A39EF6D208A1C17002BF53D /* SDWebImageManager+Retriable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A39EF72208A1C17002BF53D /* SDWebImageManager+Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A39EF6D208A1C17002BF53D /* SDWebImageManager+Retriable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A39EF73208A1C17002BF53D /* SDWebImageManager+Retriable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39EF6E208A1C17002BF53D /* SDWebImageManager+Retriable.m */; };
+		0A39EF74208A1C17002BF53D /* SDWebImageManager+Retriable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39EF6E208A1C17002BF53D /* SDWebImageManager+Retriable.m */; };
+		0A39EF75208A1C17002BF53D /* SDWebImageManager+Retriable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39EF6E208A1C17002BF53D /* SDWebImageManager+Retriable.m */; };
+		0A39EF76208A1C17002BF53D /* SDWebImageManager+Retriable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39EF6E208A1C17002BF53D /* SDWebImageManager+Retriable.m */; };
+		0A39EF82208A73FF002BF53D /* RetriableSDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFC36682089D45400D2DCC1 /* RetriableSDWebImage.framework */; };
+		0A39EF83208A73FF002BF53D /* RetriableSDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFC36682089D45400D2DCC1 /* RetriableSDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0AFC36502089D3C900D2DCC1 /* RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC364E2089D3C900D2DCC1 /* RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AFC368A2089D5C600D2DCC1 /* RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC364E2089D3C900D2DCC1 /* RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AFC368B2089D5C700D2DCC1 /* RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC364E2089D3C900D2DCC1 /* RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AFC368C2089D5C700D2DCC1 /* RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC364E2089D3C900D2DCC1 /* RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AFC36952089D61B00D2DCC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC36942089D61B00D2DCC1 /* AppDelegate.m */; };
+		0AFC36982089D61B00D2DCC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC36972089D61B00D2DCC1 /* ViewController.m */; };
+		0AFC369B2089D61B00D2DCC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC36992089D61B00D2DCC1 /* Main.storyboard */; };
+		0AFC369D2089D61C00D2DCC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC369C2089D61C00D2DCC1 /* Assets.xcassets */; };
+		0AFC36A02089D61C00D2DCC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC369E2089D61C00D2DCC1 /* LaunchScreen.storyboard */; };
+		0AFC36A32089D61C00D2DCC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC36A22089D61C00D2DCC1 /* main.m */; };
+		0AFC36C92089D63A00D2DCC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC36C82089D63A00D2DCC1 /* AppDelegate.m */; };
+		0AFC36CC2089D63A00D2DCC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC36CB2089D63A00D2DCC1 /* ViewController.m */; };
+		0AFC36CF2089D63A00D2DCC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC36CD2089D63A00D2DCC1 /* Main.storyboard */; };
+		0AFC36D12089D63B00D2DCC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC36D02089D63B00D2DCC1 /* Assets.xcassets */; };
+		0AFC36D42089D63B00D2DCC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC36D32089D63B00D2DCC1 /* main.m */; };
+		0AFC36E02089D64E00D2DCC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC36DF2089D64E00D2DCC1 /* AppDelegate.m */; };
+		0AFC36E22089D64F00D2DCC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC36E12089D64F00D2DCC1 /* Assets.xcassets */; };
+		0AFC36E52089D64F00D2DCC1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC36E32089D64F00D2DCC1 /* MainMenu.xib */; };
+		0AFC36E82089D64F00D2DCC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC36E72089D64F00D2DCC1 /* main.m */; };
+		0AFC36ED2089D65700D2DCC1 /* RetriableSDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFC364B2089D3C900D2DCC1 /* RetriableSDWebImage.framework */; };
+		0AFC36EE2089D65700D2DCC1 /* RetriableSDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFC364B2089D3C900D2DCC1 /* RetriableSDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0AFC36F72089D66600D2DCC1 /* RetriableSDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFC36752089D49500D2DCC1 /* RetriableSDWebImage.framework */; };
+		0AFC36F82089D66600D2DCC1 /* RetriableSDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFC36752089D49500D2DCC1 /* RetriableSDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0AFC36FC2089D66F00D2DCC1 /* RetriableSDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFC36822089D4F500D2DCC1 /* RetriableSDWebImage.framework */; };
+		0AFC36FD2089D66F00D2DCC1 /* RetriableSDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFC36822089D4F500D2DCC1 /* RetriableSDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0AFC37072089D6B700D2DCC1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC37052089D6B700D2DCC1 /* Interface.storyboard */; };
+		0AFC37092089D6B700D2DCC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC37082089D6B700D2DCC1 /* Assets.xcassets */; };
+		0AFC37102089D6B800D2DCC1 /* RetriableSDWebImage watchOS Example Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0AFC370F2089D6B800D2DCC1 /* RetriableSDWebImage watchOS Example Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0AFC37162089D6B800D2DCC1 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC37152089D6B800D2DCC1 /* InterfaceController.m */; };
+		0AFC37192089D6B800D2DCC1 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC37182089D6B800D2DCC1 /* ExtensionDelegate.m */; };
+		0AFC371B2089D6B800D2DCC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC371A2089D6B800D2DCC1 /* Assets.xcassets */; };
+		0AFC371F2089D6B800D2DCC1 /* RetriableSDWebImage watchOS Example.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0AFC37032089D6B700D2DCC1 /* RetriableSDWebImage watchOS Example.app */; };
+		0AFC37352089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC37332089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.m */; };
+		0AFC37382089DEC800D2DCC1 /* RetriableSDWebImageResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC37362089DEC800D2DCC1 /* RetriableSDWebImageResponse.h */; };
+		0AFC37392089DEC800D2DCC1 /* RetriableSDWebImageResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC37362089DEC800D2DCC1 /* RetriableSDWebImageResponse.h */; };
+		0AFC373A2089DEC800D2DCC1 /* RetriableSDWebImageResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC37362089DEC800D2DCC1 /* RetriableSDWebImageResponse.h */; };
+		0AFC373B2089DEC800D2DCC1 /* RetriableSDWebImageResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC37362089DEC800D2DCC1 /* RetriableSDWebImageResponse.h */; };
+		0AFC373C2089DEC800D2DCC1 /* RetriableSDWebImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC37372089DEC800D2DCC1 /* RetriableSDWebImageResponse.m */; };
+		0AFC373D2089DEC800D2DCC1 /* RetriableSDWebImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC37372089DEC800D2DCC1 /* RetriableSDWebImageResponse.m */; };
+		0AFC373E2089DEC800D2DCC1 /* RetriableSDWebImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC37372089DEC800D2DCC1 /* RetriableSDWebImageResponse.m */; };
+		0AFC373F2089DEC800D2DCC1 /* RetriableSDWebImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC37372089DEC800D2DCC1 /* RetriableSDWebImageResponse.m */; };
+		0AFC374C2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC374A2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AFC374E2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC374A2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AFC37502089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC374B2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m */; };
+		0AFC37522089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC374B2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m */; };
+		0BDB8ECAB0E5E62436CDA886 /* Pods_RetriableSDWebImage_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0696FE0C63983B10C5DDC993 /* Pods_RetriableSDWebImage_watchOS.framework */; };
+		0E38542FDB0D9734B31B3842 /* Pods_RetriableSDWebImage_macOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239C2AE6A7877B77DFF8D820 /* Pods_RetriableSDWebImage_macOS_Example.framework */; };
+		3B8F15CA993D46E78B43421E /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A7A53B412477D7C3893ACD /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework */; };
+		7BB9276495D3DF5E4DC25154 /* Pods_RetriableSDWebImage_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C081525994BBB3429CE4F95 /* Pods_RetriableSDWebImage_macOS.framework */; };
+		8A66C6AF1B83EB66B29BC975 /* Pods_RetriableSDWebImage_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCF47F3902B1B690D146D37 /* Pods_RetriableSDWebImage_iOS_Example.framework */; };
+		8D95EA54D97053A16E1BF634 /* Pods_RetriableSDWebImage_tvOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D01047B041D5C839D90B47 /* Pods_RetriableSDWebImage_tvOS_Example.framework */; };
+		A1E8E0BD7C22318FD0A3AB36 /* Pods_RetriableSDWebImage_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B244B26BC9DB0B66CC0CF639 /* Pods_RetriableSDWebImage_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A39EF84208A73FF002BF53D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AFC36422089D3C900D2DCC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AFC36672089D45400D2DCC1;
+			remoteInfo = "RetriableSDWebImage watchOS";
+		};
+		0AFC36EF2089D65700D2DCC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AFC36422089D3C900D2DCC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AFC364A2089D3C900D2DCC1;
+			remoteInfo = "RetriableSDWebImage iOS";
+		};
+		0AFC36F92089D66600D2DCC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AFC36422089D3C900D2DCC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AFC36742089D49500D2DCC1;
+			remoteInfo = "RetriableSDWebImage tvOS";
+		};
+		0AFC36FE2089D66F00D2DCC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AFC36422089D3C900D2DCC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AFC36812089D4F500D2DCC1;
+			remoteInfo = "RetriableSDWebImage macOS";
+		};
+		0AFC37112089D6B800D2DCC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AFC36422089D3C900D2DCC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AFC370E2089D6B800D2DCC1;
+			remoteInfo = "RetriableSDWebImage watchOS Example Extension";
+		};
+		0AFC371D2089D6B800D2DCC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AFC36422089D3C900D2DCC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AFC37022089D6B700D2DCC1;
+			remoteInfo = "RetriableSDWebImage watchOS Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A39EF86208A7400002BF53D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0A39EF83208A73FF002BF53D /* RetriableSDWebImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36F12089D65800D2DCC1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0AFC36EE2089D65700D2DCC1 /* RetriableSDWebImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36FB2089D66600D2DCC1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0AFC36F82089D66600D2DCC1 /* RetriableSDWebImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC37002089D67000D2DCC1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0AFC36FD2089D66F00D2DCC1 /* RetriableSDWebImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC37232089D6B800D2DCC1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0AFC37102089D6B800D2DCC1 /* RetriableSDWebImage watchOS Example Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC37272089D6B800D2DCC1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0AFC371F2089D6B800D2DCC1 /* RetriableSDWebImage watchOS Example.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0388E7DA1BE68B78826BDA46 /* Pods-RetriableSDWebImage iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage iOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0696FE0C63983B10C5DDC993 /* Pods_RetriableSDWebImage_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A10E07F2089E8FF006E175E /* UIButton+RetriableSDWebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+RetriableSDWebImage.h"; sourceTree = "<group>"; };
+		0A10E0802089E8FF006E175E /* UIButton+RetriableSDWebImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RetriableSDWebImage.m"; sourceTree = "<group>"; };
+		0A10E0892089EB27006E175E /* NSButton+RetriableSDWebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSButton+RetriableSDWebImage.h"; sourceTree = "<group>"; };
+		0A10E08A2089EB27006E175E /* NSButton+RetriableSDWebImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSButton+RetriableSDWebImage.m"; sourceTree = "<group>"; };
+		0A39EF6D208A1C17002BF53D /* SDWebImageManager+Retriable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDWebImageManager+Retriable.h"; sourceTree = "<group>"; };
+		0A39EF6E208A1C17002BF53D /* SDWebImageManager+Retriable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SDWebImageManager+Retriable.m"; sourceTree = "<group>"; };
+		0A39EF77208A298C002BF53D /* RetriableSDWebImage macOS Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "RetriableSDWebImage macOS Example.entitlements"; sourceTree = "<group>"; };
+		0AFC364B2089D3C900D2DCC1 /* RetriableSDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RetriableSDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFC364E2089D3C900D2DCC1 /* RetriableSDWebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetriableSDWebImage.h; sourceTree = "<group>"; };
+		0AFC364F2089D3C900D2DCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFC36682089D45400D2DCC1 /* RetriableSDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RetriableSDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFC36752089D49500D2DCC1 /* RetriableSDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RetriableSDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFC36822089D4F500D2DCC1 /* RetriableSDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RetriableSDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFC36912089D61B00D2DCC1 /* RetriableSDWebImage iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RetriableSDWebImage iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFC36932089D61B00D2DCC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AFC36942089D61B00D2DCC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AFC36962089D61B00D2DCC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AFC36972089D61B00D2DCC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AFC369A2089D61B00D2DCC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AFC369C2089D61C00D2DCC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AFC369F2089D61C00D2DCC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AFC36A12089D61C00D2DCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFC36A22089D61C00D2DCC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AFC36C52089D63A00D2DCC1 /* RetriableSDWebImage tvOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RetriableSDWebImage tvOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFC36C72089D63A00D2DCC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AFC36C82089D63A00D2DCC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AFC36CA2089D63A00D2DCC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AFC36CB2089D63A00D2DCC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AFC36CE2089D63A00D2DCC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AFC36D02089D63B00D2DCC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AFC36D22089D63B00D2DCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFC36D32089D63B00D2DCC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AFC36DC2089D64E00D2DCC1 /* RetriableSDWebImage macOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RetriableSDWebImage macOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFC36DE2089D64E00D2DCC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AFC36DF2089D64E00D2DCC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AFC36E12089D64F00D2DCC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AFC36E42089D64F00D2DCC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0AFC36E62089D64F00D2DCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFC36E72089D64F00D2DCC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AFC36E92089D64F00D2DCC1 /* RetriableSDWebImage_macOS_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RetriableSDWebImage_macOS_Example.entitlements; sourceTree = "<group>"; };
+		0AFC37032089D6B700D2DCC1 /* RetriableSDWebImage watchOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RetriableSDWebImage watchOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFC37062089D6B700D2DCC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0AFC37082089D6B700D2DCC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AFC370A2089D6B700D2DCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFC370F2089D6B800D2DCC1 /* RetriableSDWebImage watchOS Example Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RetriableSDWebImage watchOS Example Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFC37142089D6B800D2DCC1 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		0AFC37152089D6B800D2DCC1 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		0AFC37172089D6B800D2DCC1 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		0AFC37182089D6B800D2DCC1 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		0AFC371A2089D6B800D2DCC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AFC371C2089D6B800D2DCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFC37322089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+RetriableSDWebImage.h"; sourceTree = "<group>"; };
+		0AFC37332089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+RetriableSDWebImage.m"; sourceTree = "<group>"; };
+		0AFC37362089DEC800D2DCC1 /* RetriableSDWebImageResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetriableSDWebImageResponse.h; sourceTree = "<group>"; };
+		0AFC37372089DEC800D2DCC1 /* RetriableSDWebImageResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetriableSDWebImageResponse.m; sourceTree = "<group>"; };
+		0AFC374A2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+RetriableSDWebImage.h"; sourceTree = "<group>"; };
+		0AFC374B2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+RetriableSDWebImage.m"; sourceTree = "<group>"; };
+		0DBDD262D119883458F5F21E /* Pods-RetriableSDWebImage watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage watchOS/Pods-RetriableSDWebImage watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		17AD33C634CF7A79FE82C539 /* Pods-RetriableSDWebImage macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage macOS/Pods-RetriableSDWebImage macOS.release.xcconfig"; sourceTree = "<group>"; };
+		239C2AE6A7877B77DFF8D820 /* Pods_RetriableSDWebImage_macOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_macOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B9BC9F19909E68450F627D /* Pods-RetriableSDWebImage watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage watchOS/Pods-RetriableSDWebImage watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		47E35EDD3C950D69E4B34090 /* Pods_RetriableSDWebImage_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA777AC7D2CE9AAF85270A5 /* Pods-RetriableSDWebImage tvOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage tvOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4FA17D6D0D4338DD1E27A7BF /* Pods-RetriableSDWebImage tvOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage tvOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		50A1DACDB59F7D8351606FF8 /* Pods_RetriableSDWebImage_watchOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_watchOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		726EC26ADA106A0F74B3ECE1 /* Pods-RetriableSDWebImage iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage iOS/Pods-RetriableSDWebImage iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7C081525994BBB3429CE4F95 /* Pods_RetriableSDWebImage_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DEE9883D7C5A653739EAAD1 /* Pods-RetriableSDWebImage macOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage macOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		91D01047B041D5C839D90B47 /* Pods_RetriableSDWebImage_tvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_tvOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CFE25538B1DB074273B7ED0 /* Pods-RetriableSDWebImage iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage iOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		A1F4A945F14BEEDD2551CB8B /* Pods-RetriableSDWebImage macOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage macOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B1D71778D7F0BB25402FD1FB /* Pods-RetriableSDWebImage tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage tvOS/Pods-RetriableSDWebImage tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B244B26BC9DB0B66CC0CF639 /* Pods_RetriableSDWebImage_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCF47F3902B1B690D146D37 /* Pods_RetriableSDWebImage_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A7A53B412477D7C3893ACD /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_watchOS_Example_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCCFAD5105AC3297B791E28 /* Pods-RetriableSDWebImage macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage macOS/Pods-RetriableSDWebImage macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DA117F18A3E850A86406C25C /* Pods-RetriableSDWebImage tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage tvOS/Pods-RetriableSDWebImage tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DB4B5A5136C8E0D6B3F964F6 /* Pods-RetriableSDWebImage watchOS Example Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage watchOS Example Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension.release.xcconfig"; sourceTree = "<group>"; };
+		F4EB2FD75CF948752053692D /* Pods-RetriableSDWebImage watchOS Example Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage watchOS Example Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		F8FE1FC2AB06A0BBC02C2B10 /* Pods-RetriableSDWebImage iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage iOS/Pods-RetriableSDWebImage iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AFC36472089D3C900D2DCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E8E0BD7C22318FD0A3AB36 /* Pods_RetriableSDWebImage_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36642089D45400D2DCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDB8ECAB0E5E62436CDA886 /* Pods_RetriableSDWebImage_watchOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36712089D49500D2DCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099DA071ED3CAF8A42BFFA6B /* Pods_RetriableSDWebImage_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC367E2089D4F500D2DCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB9276495D3DF5E4DC25154 /* Pods_RetriableSDWebImage_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC368E2089D61B00D2DCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFC36ED2089D65700D2DCC1 /* RetriableSDWebImage.framework in Frameworks */,
+				8A66C6AF1B83EB66B29BC975 /* Pods_RetriableSDWebImage_iOS_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36C22089D63A00D2DCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFC36F72089D66600D2DCC1 /* RetriableSDWebImage.framework in Frameworks */,
+				8D95EA54D97053A16E1BF634 /* Pods_RetriableSDWebImage_tvOS_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36D92089D64E00D2DCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFC36FC2089D66F00D2DCC1 /* RetriableSDWebImage.framework in Frameworks */,
+				0E38542FDB0D9734B31B3842 /* Pods_RetriableSDWebImage_macOS_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC370C2089D6B800D2DCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A39EF82208A73FF002BF53D /* RetriableSDWebImage.framework in Frameworks */,
+				3B8F15CA993D46E78B43421E /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC372C2089D70A00D2DCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		023B7739ECDA1FD4DA61EAF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B244B26BC9DB0B66CC0CF639 /* Pods_RetriableSDWebImage_iOS.framework */,
+				BDCF47F3902B1B690D146D37 /* Pods_RetriableSDWebImage_iOS_Example.framework */,
+				7C081525994BBB3429CE4F95 /* Pods_RetriableSDWebImage_macOS.framework */,
+				239C2AE6A7877B77DFF8D820 /* Pods_RetriableSDWebImage_macOS_Example.framework */,
+				47E35EDD3C950D69E4B34090 /* Pods_RetriableSDWebImage_tvOS.framework */,
+				91D01047B041D5C839D90B47 /* Pods_RetriableSDWebImage_tvOS_Example.framework */,
+				0696FE0C63983B10C5DDC993 /* Pods_RetriableSDWebImage_watchOS.framework */,
+				50A1DACDB59F7D8351606FF8 /* Pods_RetriableSDWebImage_watchOS_Example.framework */,
+				C9A7A53B412477D7C3893ACD /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AFC36412089D3C900D2DCC1 = {
+			isa = PBXGroup;
+			children = (
+				023B7739ECDA1FD4DA61EAF7 /* Frameworks */,
+				A9AEEBAE29B06341329B50CE /* Pods */,
+				0AFC364C2089D3C900D2DCC1 /* Products */,
+				0AFC364D2089D3C900D2DCC1 /* RetriableSDWebImage */,
+				0AFC36922089D61B00D2DCC1 /* RetriableSDWebImage iOS Example */,
+				0AFC36DD2089D64E00D2DCC1 /* RetriableSDWebImage macOS Example */,
+				0AFC36C62089D63A00D2DCC1 /* RetriableSDWebImage tvOS Example */,
+				0AFC37042089D6B700D2DCC1 /* RetriableSDWebImage watchOS Example */,
+				0AFC37132089D6B800D2DCC1 /* RetriableSDWebImage watchOS Example Extension */,
+			);
+			sourceTree = "<group>";
+		};
+		0AFC364C2089D3C900D2DCC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AFC364B2089D3C900D2DCC1 /* RetriableSDWebImage.framework */,
+				0AFC36682089D45400D2DCC1 /* RetriableSDWebImage.framework */,
+				0AFC36752089D49500D2DCC1 /* RetriableSDWebImage.framework */,
+				0AFC36822089D4F500D2DCC1 /* RetriableSDWebImage.framework */,
+				0AFC36912089D61B00D2DCC1 /* RetriableSDWebImage iOS Example.app */,
+				0AFC36C52089D63A00D2DCC1 /* RetriableSDWebImage tvOS Example.app */,
+				0AFC36DC2089D64E00D2DCC1 /* RetriableSDWebImage macOS Example.app */,
+				0AFC37032089D6B700D2DCC1 /* RetriableSDWebImage watchOS Example.app */,
+				0AFC370F2089D6B800D2DCC1 /* RetriableSDWebImage watchOS Example Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AFC364D2089D3C900D2DCC1 /* RetriableSDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				0AFC364F2089D3C900D2DCC1 /* Info.plist */,
+				0A10E0892089EB27006E175E /* NSButton+RetriableSDWebImage.h */,
+				0A10E08A2089EB27006E175E /* NSButton+RetriableSDWebImage.m */,
+				0AFC364E2089D3C900D2DCC1 /* RetriableSDWebImage.h */,
+				0AFC37362089DEC800D2DCC1 /* RetriableSDWebImageResponse.h */,
+				0AFC37372089DEC800D2DCC1 /* RetriableSDWebImageResponse.m */,
+				0A39EF6D208A1C17002BF53D /* SDWebImageManager+Retriable.h */,
+				0A39EF6E208A1C17002BF53D /* SDWebImageManager+Retriable.m */,
+				0A10E07F2089E8FF006E175E /* UIButton+RetriableSDWebImage.h */,
+				0A10E0802089E8FF006E175E /* UIButton+RetriableSDWebImage.m */,
+				0AFC374A2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.h */,
+				0AFC374B2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m */,
+				0AFC37322089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.h */,
+				0AFC37332089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.m */,
+			);
+			path = RetriableSDWebImage;
+			sourceTree = "<group>";
+		};
+		0AFC36922089D61B00D2DCC1 /* RetriableSDWebImage iOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				0AFC36932089D61B00D2DCC1 /* AppDelegate.h */,
+				0AFC36942089D61B00D2DCC1 /* AppDelegate.m */,
+				0AFC36962089D61B00D2DCC1 /* ViewController.h */,
+				0AFC36972089D61B00D2DCC1 /* ViewController.m */,
+				0AFC36992089D61B00D2DCC1 /* Main.storyboard */,
+				0AFC369C2089D61C00D2DCC1 /* Assets.xcassets */,
+				0AFC369E2089D61C00D2DCC1 /* LaunchScreen.storyboard */,
+				0AFC36A12089D61C00D2DCC1 /* Info.plist */,
+				0AFC36A22089D61C00D2DCC1 /* main.m */,
+			);
+			path = "RetriableSDWebImage iOS Example";
+			sourceTree = "<group>";
+		};
+		0AFC36C62089D63A00D2DCC1 /* RetriableSDWebImage tvOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				0AFC36C72089D63A00D2DCC1 /* AppDelegate.h */,
+				0AFC36C82089D63A00D2DCC1 /* AppDelegate.m */,
+				0AFC36CA2089D63A00D2DCC1 /* ViewController.h */,
+				0AFC36CB2089D63A00D2DCC1 /* ViewController.m */,
+				0AFC36CD2089D63A00D2DCC1 /* Main.storyboard */,
+				0AFC36D02089D63B00D2DCC1 /* Assets.xcassets */,
+				0AFC36D22089D63B00D2DCC1 /* Info.plist */,
+				0AFC36D32089D63B00D2DCC1 /* main.m */,
+			);
+			path = "RetriableSDWebImage tvOS Example";
+			sourceTree = "<group>";
+		};
+		0AFC36DD2089D64E00D2DCC1 /* RetriableSDWebImage macOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				0A39EF77208A298C002BF53D /* RetriableSDWebImage macOS Example.entitlements */,
+				0AFC36DE2089D64E00D2DCC1 /* AppDelegate.h */,
+				0AFC36DF2089D64E00D2DCC1 /* AppDelegate.m */,
+				0AFC36E12089D64F00D2DCC1 /* Assets.xcassets */,
+				0AFC36E32089D64F00D2DCC1 /* MainMenu.xib */,
+				0AFC36E62089D64F00D2DCC1 /* Info.plist */,
+				0AFC36E72089D64F00D2DCC1 /* main.m */,
+				0AFC36E92089D64F00D2DCC1 /* RetriableSDWebImage_macOS_Example.entitlements */,
+			);
+			path = "RetriableSDWebImage macOS Example";
+			sourceTree = "<group>";
+		};
+		0AFC37042089D6B700D2DCC1 /* RetriableSDWebImage watchOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				0AFC37052089D6B700D2DCC1 /* Interface.storyboard */,
+				0AFC37082089D6B700D2DCC1 /* Assets.xcassets */,
+				0AFC370A2089D6B700D2DCC1 /* Info.plist */,
+			);
+			path = "RetriableSDWebImage watchOS Example";
+			sourceTree = "<group>";
+		};
+		0AFC37132089D6B800D2DCC1 /* RetriableSDWebImage watchOS Example Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0AFC37142089D6B800D2DCC1 /* InterfaceController.h */,
+				0AFC37152089D6B800D2DCC1 /* InterfaceController.m */,
+				0AFC37172089D6B800D2DCC1 /* ExtensionDelegate.h */,
+				0AFC37182089D6B800D2DCC1 /* ExtensionDelegate.m */,
+				0AFC371A2089D6B800D2DCC1 /* Assets.xcassets */,
+				0AFC371C2089D6B800D2DCC1 /* Info.plist */,
+			);
+			path = "RetriableSDWebImage watchOS Example Extension";
+			sourceTree = "<group>";
+		};
+		A9AEEBAE29B06341329B50CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				726EC26ADA106A0F74B3ECE1 /* Pods-RetriableSDWebImage iOS.debug.xcconfig */,
+				F8FE1FC2AB06A0BBC02C2B10 /* Pods-RetriableSDWebImage iOS.release.xcconfig */,
+				0388E7DA1BE68B78826BDA46 /* Pods-RetriableSDWebImage iOS Example.debug.xcconfig */,
+				9CFE25538B1DB074273B7ED0 /* Pods-RetriableSDWebImage iOS Example.release.xcconfig */,
+				CDCCFAD5105AC3297B791E28 /* Pods-RetriableSDWebImage macOS.debug.xcconfig */,
+				17AD33C634CF7A79FE82C539 /* Pods-RetriableSDWebImage macOS.release.xcconfig */,
+				A1F4A945F14BEEDD2551CB8B /* Pods-RetriableSDWebImage macOS Example.debug.xcconfig */,
+				8DEE9883D7C5A653739EAAD1 /* Pods-RetriableSDWebImage macOS Example.release.xcconfig */,
+				DA117F18A3E850A86406C25C /* Pods-RetriableSDWebImage tvOS.debug.xcconfig */,
+				B1D71778D7F0BB25402FD1FB /* Pods-RetriableSDWebImage tvOS.release.xcconfig */,
+				4BA777AC7D2CE9AAF85270A5 /* Pods-RetriableSDWebImage tvOS Example.debug.xcconfig */,
+				4FA17D6D0D4338DD1E27A7BF /* Pods-RetriableSDWebImage tvOS Example.release.xcconfig */,
+				0DBDD262D119883458F5F21E /* Pods-RetriableSDWebImage watchOS.debug.xcconfig */,
+				26B9BC9F19909E68450F627D /* Pods-RetriableSDWebImage watchOS.release.xcconfig */,
+				F4EB2FD75CF948752053692D /* Pods-RetriableSDWebImage watchOS Example Extension.debug.xcconfig */,
+				DB4B5A5136C8E0D6B3F964F6 /* Pods-RetriableSDWebImage watchOS Example Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AFC36482089D3C900D2DCC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFC374C2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.h in Headers */,
+				0A10E0812089E8FF006E175E /* UIButton+RetriableSDWebImage.h in Headers */,
+				0A10E09F2089F279006E175E /* NSButton+RetriableSDWebImage.h in Headers */,
+				0AFC37382089DEC800D2DCC1 /* RetriableSDWebImageResponse.h in Headers */,
+				0A39EF6F208A1C17002BF53D /* SDWebImageManager+Retriable.h in Headers */,
+				0AFC36502089D3C900D2DCC1 /* RetriableSDWebImage.h in Headers */,
+				0A10E0902089EF03006E175E /* UIView+RetriableSDWebImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36652089D45400D2DCC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A10E0972089F26C006E175E /* UIImageView+RetriableSDWebImage.h in Headers */,
+				0A10E09B2089F273006E175E /* UIButton+RetriableSDWebImage.h in Headers */,
+				0A10E0A02089F27A006E175E /* NSButton+RetriableSDWebImage.h in Headers */,
+				0AFC37392089DEC800D2DCC1 /* RetriableSDWebImageResponse.h in Headers */,
+				0A39EF70208A1C17002BF53D /* SDWebImageManager+Retriable.h in Headers */,
+				0AFC368A2089D5C600D2DCC1 /* RetriableSDWebImage.h in Headers */,
+				0A10E0952089F25B006E175E /* UIView+RetriableSDWebImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36722089D49500D2DCC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFC373A2089DEC800D2DCC1 /* RetriableSDWebImageResponse.h in Headers */,
+				0AFC374E2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.h in Headers */,
+				0A10E0A12089F27A006E175E /* NSButton+RetriableSDWebImage.h in Headers */,
+				0AFC368B2089D5C700D2DCC1 /* RetriableSDWebImage.h in Headers */,
+				0A39EF71208A1C17002BF53D /* SDWebImageManager+Retriable.h in Headers */,
+				0A10E0832089E8FF006E175E /* UIButton+RetriableSDWebImage.h in Headers */,
+				0A10E0922089EF04006E175E /* UIView+RetriableSDWebImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC367F2089D4F500D2DCC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A10E0932089EF04006E175E /* UIView+RetriableSDWebImage.h in Headers */,
+				0AFC373B2089DEC800D2DCC1 /* RetriableSDWebImageResponse.h in Headers */,
+				0A10E0982089F26C006E175E /* UIImageView+RetriableSDWebImage.h in Headers */,
+				0A10E08B2089EB27006E175E /* NSButton+RetriableSDWebImage.h in Headers */,
+				0A39EF72208A1C17002BF53D /* SDWebImageManager+Retriable.h in Headers */,
+				0AFC368C2089D5C700D2DCC1 /* RetriableSDWebImage.h in Headers */,
+				0A10E09C2089F274006E175E /* UIButton+RetriableSDWebImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AFC364A2089D3C900D2DCC1 /* RetriableSDWebImage iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AFC36532089D3C900D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage iOS" */;
+			buildPhases = (
+				2E937D35F57786505B1DF163 /* [CP] Check Pods Manifest.lock */,
+				0AFC36462089D3C900D2DCC1 /* Sources */,
+				0AFC36472089D3C900D2DCC1 /* Frameworks */,
+				0AFC36482089D3C900D2DCC1 /* Headers */,
+				0AFC36492089D3C900D2DCC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RetriableSDWebImage iOS";
+			productName = RetriableSDWebImage;
+			productReference = 0AFC364B2089D3C900D2DCC1 /* RetriableSDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0AFC36672089D45400D2DCC1 /* RetriableSDWebImage watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AFC366D2089D45500D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage watchOS" */;
+			buildPhases = (
+				2E19D1AD06ACFBA99C591D97 /* [CP] Check Pods Manifest.lock */,
+				0AFC36632089D45400D2DCC1 /* Sources */,
+				0AFC36642089D45400D2DCC1 /* Frameworks */,
+				0AFC36652089D45400D2DCC1 /* Headers */,
+				0AFC36662089D45400D2DCC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RetriableSDWebImage watchOS";
+			productName = "RetriableSDWebImage watchOS";
+			productReference = 0AFC36682089D45400D2DCC1 /* RetriableSDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0AFC36742089D49500D2DCC1 /* RetriableSDWebImage tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AFC367A2089D49500D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage tvOS" */;
+			buildPhases = (
+				C34FEB1B2DA59A5C8020169F /* [CP] Check Pods Manifest.lock */,
+				0AFC36702089D49500D2DCC1 /* Sources */,
+				0AFC36712089D49500D2DCC1 /* Frameworks */,
+				0AFC36722089D49500D2DCC1 /* Headers */,
+				0AFC36732089D49500D2DCC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RetriableSDWebImage tvOS";
+			productName = "RetriableSDWebImage tvOS";
+			productReference = 0AFC36752089D49500D2DCC1 /* RetriableSDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0AFC36812089D4F500D2DCC1 /* RetriableSDWebImage macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AFC36872089D4F500D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage macOS" */;
+			buildPhases = (
+				F6F5A9D19D667016E696BDBF /* [CP] Check Pods Manifest.lock */,
+				0AFC367D2089D4F500D2DCC1 /* Sources */,
+				0AFC367E2089D4F500D2DCC1 /* Frameworks */,
+				0AFC367F2089D4F500D2DCC1 /* Headers */,
+				0AFC36802089D4F500D2DCC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RetriableSDWebImage macOS";
+			productName = "RetriableSDWebImage macOS";
+			productReference = 0AFC36822089D4F500D2DCC1 /* RetriableSDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0AFC36902089D61B00D2DCC1 /* RetriableSDWebImage iOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AFC36A42089D61C00D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage iOS Example" */;
+			buildPhases = (
+				82EEC72C7B591F283F2B0FBC /* [CP] Check Pods Manifest.lock */,
+				0AFC368D2089D61B00D2DCC1 /* Sources */,
+				0AFC368E2089D61B00D2DCC1 /* Frameworks */,
+				0AFC368F2089D61B00D2DCC1 /* Resources */,
+				0AFC36F12089D65800D2DCC1 /* Embed Frameworks */,
+				0AFC37272089D6B800D2DCC1 /* Embed Watch Content */,
+				FA0DE42CB319524DAC23BAD1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AFC36F02089D65700D2DCC1 /* PBXTargetDependency */,
+				0AFC371E2089D6B800D2DCC1 /* PBXTargetDependency */,
+			);
+			name = "RetriableSDWebImage iOS Example";
+			productName = "RetriableSDWebImage iOS Example";
+			productReference = 0AFC36912089D61B00D2DCC1 /* RetriableSDWebImage iOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AFC36C42089D63A00D2DCC1 /* RetriableSDWebImage tvOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AFC36D52089D63B00D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage tvOS Example" */;
+			buildPhases = (
+				774A612E175D38CBDFFD3B3E /* [CP] Check Pods Manifest.lock */,
+				0AFC36C12089D63A00D2DCC1 /* Sources */,
+				0AFC36C22089D63A00D2DCC1 /* Frameworks */,
+				0AFC36C32089D63A00D2DCC1 /* Resources */,
+				0AFC36FB2089D66600D2DCC1 /* Embed Frameworks */,
+				84FE0DCF8D5CD50481222812 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AFC36FA2089D66600D2DCC1 /* PBXTargetDependency */,
+			);
+			name = "RetriableSDWebImage tvOS Example";
+			productName = "RetriableSDWebImage tvOS Example";
+			productReference = 0AFC36C52089D63A00D2DCC1 /* RetriableSDWebImage tvOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AFC36DB2089D64E00D2DCC1 /* RetriableSDWebImage macOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AFC36EA2089D64F00D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage macOS Example" */;
+			buildPhases = (
+				A6BDBB73687145AA1D137F5A /* [CP] Check Pods Manifest.lock */,
+				0AFC36D82089D64E00D2DCC1 /* Sources */,
+				0AFC36D92089D64E00D2DCC1 /* Frameworks */,
+				0AFC36DA2089D64E00D2DCC1 /* Resources */,
+				0AFC37002089D67000D2DCC1 /* Embed Frameworks */,
+				9C5C5EA19A777488A810F5CC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AFC36FF2089D66F00D2DCC1 /* PBXTargetDependency */,
+			);
+			name = "RetriableSDWebImage macOS Example";
+			productName = "RetriableSDWebImage macOS Example";
+			productReference = 0AFC36DC2089D64E00D2DCC1 /* RetriableSDWebImage macOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AFC37022089D6B700D2DCC1 /* RetriableSDWebImage watchOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AFC37242089D6B800D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage watchOS Example" */;
+			buildPhases = (
+				0AFC37012089D6B700D2DCC1 /* Resources */,
+				0AFC37232089D6B800D2DCC1 /* Embed App Extensions */,
+				0AFC372C2089D70A00D2DCC1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AFC37122089D6B800D2DCC1 /* PBXTargetDependency */,
+			);
+			name = "RetriableSDWebImage watchOS Example";
+			productName = "RetriableSDWebImage watchOS Example";
+			productReference = 0AFC37032089D6B700D2DCC1 /* RetriableSDWebImage watchOS Example.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0AFC370E2089D6B800D2DCC1 /* RetriableSDWebImage watchOS Example Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AFC37202089D6B800D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage watchOS Example Extension" */;
+			buildPhases = (
+				973EAE74EA2BD03A70EEF925 /* [CP] Check Pods Manifest.lock */,
+				0AFC370B2089D6B800D2DCC1 /* Sources */,
+				0AFC370C2089D6B800D2DCC1 /* Frameworks */,
+				0AFC370D2089D6B800D2DCC1 /* Resources */,
+				0A39EF86208A7400002BF53D /* Embed Frameworks */,
+				E58D0472B1A31045A05FF7F8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A39EF85208A73FF002BF53D /* PBXTargetDependency */,
+			);
+			name = "RetriableSDWebImage watchOS Example Extension";
+			productName = "RetriableSDWebImage watchOS Example Extension";
+			productReference = 0AFC370F2089D6B800D2DCC1 /* RetriableSDWebImage watchOS Example Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AFC36422089D3C900D2DCC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = emsihyo;
+				TargetAttributes = {
+					0AFC364A2089D3C900D2DCC1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0AFC36672089D45400D2DCC1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0AFC36742089D49500D2DCC1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0AFC36812089D4F500D2DCC1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0AFC36902089D61B00D2DCC1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0AFC36C42089D63A00D2DCC1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0AFC36DB2089D64E00D2DCC1 = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					0AFC37022089D6B700D2DCC1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0AFC370E2089D6B800D2DCC1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 0AFC36452089D3C900D2DCC1 /* Build configuration list for PBXProject "RetriableSDWebImage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AFC36412089D3C900D2DCC1;
+			productRefGroup = 0AFC364C2089D3C900D2DCC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AFC364A2089D3C900D2DCC1 /* RetriableSDWebImage iOS */,
+				0AFC36672089D45400D2DCC1 /* RetriableSDWebImage watchOS */,
+				0AFC36742089D49500D2DCC1 /* RetriableSDWebImage tvOS */,
+				0AFC36812089D4F500D2DCC1 /* RetriableSDWebImage macOS */,
+				0AFC36902089D61B00D2DCC1 /* RetriableSDWebImage iOS Example */,
+				0AFC37022089D6B700D2DCC1 /* RetriableSDWebImage watchOS Example */,
+				0AFC370E2089D6B800D2DCC1 /* RetriableSDWebImage watchOS Example Extension */,
+				0AFC36C42089D63A00D2DCC1 /* RetriableSDWebImage tvOS Example */,
+				0AFC36DB2089D64E00D2DCC1 /* RetriableSDWebImage macOS Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AFC36492089D3C900D2DCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36662089D45400D2DCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36732089D49500D2DCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36802089D4F500D2DCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC368F2089D61B00D2DCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFC36A02089D61C00D2DCC1 /* LaunchScreen.storyboard in Resources */,
+				0AFC369D2089D61C00D2DCC1 /* Assets.xcassets in Resources */,
+				0AFC369B2089D61B00D2DCC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36C32089D63A00D2DCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFC36D12089D63B00D2DCC1 /* Assets.xcassets in Resources */,
+				0AFC36CF2089D63A00D2DCC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36DA2089D64E00D2DCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFC36E22089D64F00D2DCC1 /* Assets.xcassets in Resources */,
+				0AFC36E52089D64F00D2DCC1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC37012089D6B700D2DCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFC37092089D6B700D2DCC1 /* Assets.xcassets in Resources */,
+				0AFC37072089D6B700D2DCC1 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC370D2089D6B800D2DCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFC371B2089D6B800D2DCC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E19D1AD06ACFBA99C591D97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage watchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E937D35F57786505B1DF163 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		774A612E175D38CBDFFD3B3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage tvOS Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82EEC72C7B591F283F2B0FBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage iOS Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84FE0DCF8D5CD50481222812 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Retriable-tvOS/Retriable.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-tvOS/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		973EAE74EA2BD03A70EEF925 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage watchOS Example Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C5C5EA19A777488A810F5CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Retriable-macOS/Retriable.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-macOS/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6BDBB73687145AA1D137F5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage macOS Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C34FEB1B2DA59A5C8020169F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E58D0472B1A31045A05FF7F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Retriable-watchOS/Retriable.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-watchOS/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F5A9D19D667016E696BDBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA0DE42CB319524DAC23BAD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Retriable-iOS/Retriable.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-iOS/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AFC36462089D3C900D2DCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A10E0852089E8FF006E175E /* UIButton+RetriableSDWebImage.m in Sources */,
+				0AFC373C2089DEC800D2DCC1 /* RetriableSDWebImageResponse.m in Sources */,
+				0A39EF73208A1C17002BF53D /* SDWebImageManager+Retriable.m in Sources */,
+				0A10E0A22089F27E006E175E /* NSButton+RetriableSDWebImage.m in Sources */,
+				0AFC37502089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m in Sources */,
+				0AFC37352089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36632089D45400D2DCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A10E09D2089F276006E175E /* UIButton+RetriableSDWebImage.m in Sources */,
+				0AFC373D2089DEC800D2DCC1 /* RetriableSDWebImageResponse.m in Sources */,
+				0A39EF74208A1C17002BF53D /* SDWebImageManager+Retriable.m in Sources */,
+				0A10E0A32089F27E006E175E /* NSButton+RetriableSDWebImage.m in Sources */,
+				0A10E0992089F26F006E175E /* UIImageView+RetriableSDWebImage.m in Sources */,
+				0A10E0962089F25D006E175E /* UIView+RetriableSDWebImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36702089D49500D2DCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A10E0872089E8FF006E175E /* UIButton+RetriableSDWebImage.m in Sources */,
+				0A10E08E2089EE64006E175E /* UIView+RetriableSDWebImage.m in Sources */,
+				0A39EF75208A1C17002BF53D /* SDWebImageManager+Retriable.m in Sources */,
+				0A10E0A42089F27F006E175E /* NSButton+RetriableSDWebImage.m in Sources */,
+				0AFC373E2089DEC800D2DCC1 /* RetriableSDWebImageResponse.m in Sources */,
+				0AFC37522089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC367D2089D4F500D2DCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A10E08F2089EE64006E175E /* UIView+RetriableSDWebImage.m in Sources */,
+				0A10E09E2089F276006E175E /* UIButton+RetriableSDWebImage.m in Sources */,
+				0A39EF76208A1C17002BF53D /* SDWebImageManager+Retriable.m in Sources */,
+				0AFC373F2089DEC800D2DCC1 /* RetriableSDWebImageResponse.m in Sources */,
+				0A10E08C2089EB27006E175E /* NSButton+RetriableSDWebImage.m in Sources */,
+				0A10E09A2089F270006E175E /* UIImageView+RetriableSDWebImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC368D2089D61B00D2DCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFC36982089D61B00D2DCC1 /* ViewController.m in Sources */,
+				0AFC36A32089D61C00D2DCC1 /* main.m in Sources */,
+				0AFC36952089D61B00D2DCC1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36C12089D63A00D2DCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFC36CC2089D63A00D2DCC1 /* ViewController.m in Sources */,
+				0AFC36D42089D63B00D2DCC1 /* main.m in Sources */,
+				0AFC36C92089D63A00D2DCC1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC36D82089D64E00D2DCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFC36E82089D64F00D2DCC1 /* main.m in Sources */,
+				0AFC36E02089D64E00D2DCC1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFC370B2089D6B800D2DCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFC37192089D6B800D2DCC1 /* ExtensionDelegate.m in Sources */,
+				0AFC37162089D6B800D2DCC1 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A39EF85208A73FF002BF53D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AFC36672089D45400D2DCC1 /* RetriableSDWebImage watchOS */;
+			targetProxy = 0A39EF84208A73FF002BF53D /* PBXContainerItemProxy */;
+		};
+		0AFC36F02089D65700D2DCC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AFC364A2089D3C900D2DCC1 /* RetriableSDWebImage iOS */;
+			targetProxy = 0AFC36EF2089D65700D2DCC1 /* PBXContainerItemProxy */;
+		};
+		0AFC36FA2089D66600D2DCC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AFC36742089D49500D2DCC1 /* RetriableSDWebImage tvOS */;
+			targetProxy = 0AFC36F92089D66600D2DCC1 /* PBXContainerItemProxy */;
+		};
+		0AFC36FF2089D66F00D2DCC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AFC36812089D4F500D2DCC1 /* RetriableSDWebImage macOS */;
+			targetProxy = 0AFC36FE2089D66F00D2DCC1 /* PBXContainerItemProxy */;
+		};
+		0AFC37122089D6B800D2DCC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AFC370E2089D6B800D2DCC1 /* RetriableSDWebImage watchOS Example Extension */;
+			targetProxy = 0AFC37112089D6B800D2DCC1 /* PBXContainerItemProxy */;
+		};
+		0AFC371E2089D6B800D2DCC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AFC37022089D6B700D2DCC1 /* RetriableSDWebImage watchOS Example */;
+			targetProxy = 0AFC371D2089D6B800D2DCC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AFC36992089D61B00D2DCC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AFC369A2089D61B00D2DCC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AFC369E2089D61C00D2DCC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AFC369F2089D61C00D2DCC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0AFC36CD2089D63A00D2DCC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AFC36CE2089D63A00D2DCC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AFC36E32089D64F00D2DCC1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AFC36E42089D64F00D2DCC1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0AFC37052089D6B700D2DCC1 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AFC37062089D6B700D2DCC1 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AFC36512089D3C900D2DCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0AFC36522089D3C900D2DCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0AFC36542089D3C900D2DCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726EC26ADA106A0F74B3ECE1 /* Pods-RetriableSDWebImage iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RetriableSDWebImage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-iOS";
+				PRODUCT_NAME = RetriableSDWebImage;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AFC36552089D3C900D2DCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8FE1FC2AB06A0BBC02C2B10 /* Pods-RetriableSDWebImage iOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RetriableSDWebImage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-iOS";
+				PRODUCT_NAME = RetriableSDWebImage;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AFC366E2089D45500D2DCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBDD262D119883458F5F21E /* Pods-RetriableSDWebImage watchOS.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/RetriableSDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-watchOS";
+				PRODUCT_NAME = RetriableSDWebImage;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		0AFC366F2089D45500D2DCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B9BC9F19909E68450F627D /* Pods-RetriableSDWebImage watchOS.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/RetriableSDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-watchOS";
+				PRODUCT_NAME = RetriableSDWebImage;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		0AFC367B2089D49500D2DCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA117F18A3E850A86406C25C /* Pods-RetriableSDWebImage tvOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/RetriableSDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-tvOS";
+				PRODUCT_NAME = RetriableSDWebImage;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		0AFC367C2089D49500D2DCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D71778D7F0BB25402FD1FB /* Pods-RetriableSDWebImage tvOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/RetriableSDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-tvOS";
+				PRODUCT_NAME = RetriableSDWebImage;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		0AFC36882089D4F500D2DCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDCCFAD5105AC3297B791E28 /* Pods-RetriableSDWebImage macOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/RetriableSDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-macOS";
+				PRODUCT_NAME = RetriableSDWebImage;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0AFC36892089D4F500D2DCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17AD33C634CF7A79FE82C539 /* Pods-RetriableSDWebImage macOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/RetriableSDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-macOS";
+				PRODUCT_NAME = RetriableSDWebImage;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0AFC36A52089D61C00D2DCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0388E7DA1BE68B78826BDA46 /* Pods-RetriableSDWebImage iOS Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "RetriableSDWebImage iOS Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-iOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AFC36A62089D61C00D2DCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CFE25538B1DB074273B7ED0 /* Pods-RetriableSDWebImage iOS Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "RetriableSDWebImage iOS Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-iOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AFC36D62089D63B00D2DCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA777AC7D2CE9AAF85270A5 /* Pods-RetriableSDWebImage tvOS Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "RetriableSDWebImage tvOS Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-tvOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		0AFC36D72089D63B00D2DCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA17D6D0D4338DD1E27A7BF /* Pods-RetriableSDWebImage tvOS Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "RetriableSDWebImage tvOS Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-tvOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		0AFC36EB2089D64F00D2DCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F4A945F14BEEDD2551CB8B /* Pods-RetriableSDWebImage macOS Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RetriableSDWebImage macOS Example/RetriableSDWebImage macOS Example.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N4WZ33Z6KM;
+				INFOPLIST_FILE = "RetriableSDWebImage macOS Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-macOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0AFC36EC2089D64F00D2DCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DEE9883D7C5A653739EAAD1 /* Pods-RetriableSDWebImage macOS Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RetriableSDWebImage macOS Example/RetriableSDWebImage macOS Example.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N4WZ33Z6KM;
+				INFOPLIST_FILE = "RetriableSDWebImage macOS Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-macOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0AFC37212089D6B800D2DCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4EB2FD75CF948752053692D /* Pods-RetriableSDWebImage watchOS Example Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "RetriableSDWebImage watchOS Example Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-iOS-Example.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		0AFC37222089D6B800D2DCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4B5A5136C8E0D6B3F964F6 /* Pods-RetriableSDWebImage watchOS Example Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "RetriableSDWebImage watchOS Example Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-iOS-Example.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		0AFC37252089D6B800D2DCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = RetriableSDWebImage_watchOS_Example_Extension;
+				INFOPLIST_FILE = "RetriableSDWebImage watchOS Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-iOS-Example.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		0AFC37262089D6B800D2DCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = RetriableSDWebImage_watchOS_Example_Extension;
+				INFOPLIST_FILE = "RetriableSDWebImage watchOS Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-iOS-Example.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AFC36452089D3C900D2DCC1 /* Build configuration list for PBXProject "RetriableSDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFC36512089D3C900D2DCC1 /* Debug */,
+				0AFC36522089D3C900D2DCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AFC36532089D3C900D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFC36542089D3C900D2DCC1 /* Debug */,
+				0AFC36552089D3C900D2DCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AFC366D2089D45500D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFC366E2089D45500D2DCC1 /* Debug */,
+				0AFC366F2089D45500D2DCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AFC367A2089D49500D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFC367B2089D49500D2DCC1 /* Debug */,
+				0AFC367C2089D49500D2DCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AFC36872089D4F500D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFC36882089D4F500D2DCC1 /* Debug */,
+				0AFC36892089D4F500D2DCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AFC36A42089D61C00D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFC36A52089D61C00D2DCC1 /* Debug */,
+				0AFC36A62089D61C00D2DCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AFC36D52089D63B00D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage tvOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFC36D62089D63B00D2DCC1 /* Debug */,
+				0AFC36D72089D63B00D2DCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AFC36EA2089D64F00D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage macOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFC36EB2089D64F00D2DCC1 /* Debug */,
+				0AFC36EC2089D64F00D2DCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AFC37202089D6B800D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage watchOS Example Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFC37212089D6B800D2DCC1 /* Debug */,
+				0AFC37222089D6B800D2DCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AFC37242089D6B800D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage watchOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFC37252089D6B800D2DCC1 /* Debug */,
+				0AFC37262089D6B800D2DCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AFC36422089D3C900D2DCC1 /* Project object */;
+}

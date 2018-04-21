@@ -1,0 +1,6 @@
+framework module Pods_RetriableSDWebImage_watchOS {
+  umbrella header "Pods-RetriableSDWebImage watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
