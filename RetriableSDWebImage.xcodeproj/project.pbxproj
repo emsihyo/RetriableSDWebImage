@@ -431,9 +431,12 @@
 			isa = PBXGroup;
 			children = (
 				0AFC364F2089D3C900D2DCC1 /* Info.plist */,
+				0AFEF854208B901600D6FEC4 /* LICENSE */,
 				0A10E0892089EB27006E175E /* NSButton+RetriableSDWebImage.h */,
 				0A10E08A2089EB27006E175E /* NSButton+RetriableSDWebImage.m */,
+				0AFEF853208B901600D6FEC4 /* README.md */,
 				0AFC364E2089D3C900D2DCC1 /* RetriableSDWebImage.h */,
+				0AFEF855208B901600D6FEC4 /* RetriableSDWebImage.podspec */,
 				0AFC37362089DEC800D2DCC1 /* RetriableSDWebImageResponse.h */,
 				0AFC37372089DEC800D2DCC1 /* RetriableSDWebImageResponse.m */,
 				0A39EF6D208A1C17002BF53D /* SDWebImageManager+Retriable.h */,
@@ -444,9 +447,6 @@
 				0AFC374B2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m */,
 				0AFC37322089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.h */,
 				0AFC37332089DB9C00D2DCC1 /* UIView+RetriableSDWebImage.m */,
-				0AFEF854208B901600D6FEC4 /* LICENSE */,
-				0AFEF853208B901600D6FEC4 /* README.md */,
-				0AFEF855208B901600D6FEC4 /* RetriableSDWebImage.podspec */,
 			);
 			path = RetriableSDWebImage;
 			sourceTree = "<group>";
@@ -1462,7 +1462,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1489,7 +1489,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1516,7 +1516,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -1545,7 +1545,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -1573,7 +1573,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
@@ -1601,7 +1601,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
@@ -1632,7 +1632,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -1661,7 +1661,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableSDWebImage-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
