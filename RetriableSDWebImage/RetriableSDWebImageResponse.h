@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <SDWebImage/SDImageCache.h>
+
 @interface RetriableSDWebImageResponse : NSObject
 
 @property (readonly) UIImage          *image;

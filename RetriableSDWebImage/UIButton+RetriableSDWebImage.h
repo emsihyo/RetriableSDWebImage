@@ -15,19 +15,19 @@
 
 @interface UIButton (RetriableSDWebImage)
 
-- (void)sd_setImageWithURL:(NSURL *)url
+- (void)sd_setImageWithURL:(NSURL * _Nullable)url
                   forState:(UIControlState)state
-          placeholderImage:(UIImage *)placeholder
+          placeholderImage:(UIImage * _Nullable)placeholder
                    options:(SDWebImageOptions)options
-                 completed:(SDExternalCompletionBlock)completedBlock
-                retryAfter:(NSTimeInterval(^)(NSInteger currentRetryTime,NSError *latestError))retryAfter;
+                 completed:(SDExternalCompletionBlock _Nullable)completedBlock
+                retryAfter:(NSTimeInterval(^ _Nullable)(NSInteger currentRetryTime,NSError * _Nullable latestError))retryAfter;
 
-- (void)sd_setBackgroundImageWithURL:(NSURL *)url
+- (void)sd_setBackgroundImageWithURL:(NSURL * _Nullable)url
                             forState:(UIControlState)state
-                    placeholderImage:(UIImage *)placeholder
+                    placeholderImage:(UIImage * _Nullable)placeholder
                              options:(SDWebImageOptions)options
-                           completed:(SDExternalCompletionBlock)completedBlock
-                          retryAfter:(NSTimeInterval(^)(NSInteger currentRetryTime,NSError *latestError))retryAfter;
+                           completed:(SDExternalCompletionBlock _Nullable)completedBlock
+                          retryAfter:(NSTimeInterval(^ _Nullable)(NSInteger currentRetryTime,NSError * _Nullable latestError))retryAfter;
 
 @end
 

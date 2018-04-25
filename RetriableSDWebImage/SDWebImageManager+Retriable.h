@@ -11,10 +11,10 @@
 
 @interface SDWebImageManager (Retriable)
 
-- (RetriableOperation*)loadImageWithURL:(NSURL *)url
+- (RetriableOperation* _Nullable)loadImageWithURL:(NSURL *_Nullable)url
                                 options:(SDWebImageOptions)options
-                               progress:(SDWebImageDownloaderProgressBlock)progressBlock
-                              completed:(SDInternalCompletionBlock)completedBlock
-                             retryAfter:(NSTimeInterval(^)(NSInteger currentRetryTime,NSError *latestError))retryAfter;
+                               progress:(SDWebImageDownloaderProgressBlock _Nullable)progressBlock
+                              completed:(SDInternalCompletionBlock _Nullable)completedBlock
+                             retryAfter:(NSTimeInterval(^ _Nullable)(NSInteger currentRetryTime,NSError * _Nullable latestError))retryAfter;
 
 @end

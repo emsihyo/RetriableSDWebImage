@@ -15,15 +15,15 @@
 
 @interface UIView (RetriableSDWebImage)
 
-- (void)sd_internalSetImageWithURL:(NSURL *)url
-                  placeholderImage:(UIImage *)placeholder
+- (void)sd_internalSetImageWithURL:(NSURL * _Nullable)url
+                  placeholderImage:(UIImage * _Nullable)placeholder
                            options:(SDWebImageOptions)options
-                      operationKey:(NSString *)operationKey
-                     setImageBlock:(SDSetImageBlock)setImageBlock
-                          progress:(SDWebImageDownloaderProgressBlock)progressBlock
-                         completed:(SDExternalCompletionBlock)completedBlock
-                           context:(NSDictionary<NSString *, id> *)context
-                        retryAfter:(NSTimeInterval(^)(NSInteger currentRetryTime,NSError *latestError))retryAfter;
+                      operationKey:(NSString * _Nullable)operationKey
+                     setImageBlock:(SDSetImageBlock _Nullable)setImageBlock
+                          progress:(SDWebImageDownloaderProgressBlock _Nullable)progressBlock
+                         completed:(SDExternalCompletionBlock _Nullable)completedBlock
+                           context:(NSDictionary<NSString *, id> * _Nullable)context
+                        retryAfter:(NSTimeInterval(^ _Nullable)(NSInteger currentRetryTime,NSError * _Nullable latestError))retryAfter;
     
 @end
 

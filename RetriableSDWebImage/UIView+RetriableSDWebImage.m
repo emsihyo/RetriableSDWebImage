@@ -14,7 +14,6 @@
 
 #import "RetriableSDWebImageResponse.h"
 
-
 @interface UIView (_RetriableSDWebImage)
 @property (readonly)NSMutableDictionary *retriable_sd_operations;
 @end

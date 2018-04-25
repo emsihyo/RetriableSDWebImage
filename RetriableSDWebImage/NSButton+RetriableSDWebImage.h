@@ -14,19 +14,19 @@
 
 @interface NSButton (RetriableSDWebImage)
 
-- (void)sd_setImageWithURL:(NSURL *)url
-          placeholderImage:(UIImage *)placeholder
+- (void)sd_setImageWithURL:(NSURL * _Nullable)url
+          placeholderImage:(UIImage * _Nullable)placeholder
                    options:(SDWebImageOptions)options
-                  progress:(SDWebImageDownloaderProgressBlock)progressBlock
-                 completed:(SDExternalCompletionBlock)completedBlock
-                retryAfter:(NSTimeInterval(^)(NSInteger currentRetryTime,NSError *latestError))retryAfter;
+                  progress:(SDWebImageDownloaderProgressBlock _Nullable)progressBlock
+                 completed:(SDExternalCompletionBlock _Nullable)completedBlock
+                retryAfter:(NSTimeInterval(^ _Nullable)(NSInteger currentRetryTime,NSError * _Nullable latestError))retryAfter;
 
-- (void)sd_setAlternateImageWithURL:(NSURL *)url
-                   placeholderImage:(UIImage *)placeholder
+- (void)sd_setAlternateImageWithURL:(NSURL * _Nullable)url
+                   placeholderImage:(UIImage * _Nullable)placeholder
                             options:(SDWebImageOptions)options
-                           progress:(SDWebImageDownloaderProgressBlock)progressBlock
-                          completed:(SDExternalCompletionBlock)completedBlock
-                         retryAfter:(NSTimeInterval(^)(NSInteger currentRetryTime,NSError *latestError))retryAfter;
+                           progress:(SDWebImageDownloaderProgressBlock _Nullable)progressBlock
+                          completed:(SDExternalCompletionBlock _Nullable)completedBlock
+                         retryAfter:(NSTimeInterval(^ _Nullable)(NSInteger currentRetryTime,NSError * _Nullable latestError))retryAfter;
 
 @end
 
