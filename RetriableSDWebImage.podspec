@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
     spec.name     = 'RetriableSDWebImage'
-    spec.version  = '1.0.2'
+    spec.version  = '1.0.3'
     spec.license  = 'MIT'
     spec.summary  = 'Retriable SDWebImage'
-    spec.homepage = 'https://github.com/emsihyo/RetriableSDWebImage'
-    spec.author   = { 'emsihyo' => 'emsihyo@gmail.com' }
-    spec.source   = { :git => 'https://github.com/emsihyo/RetriableSDWebImage.git',:tag => "#{spec.version}" }
+    spec.homepage = 'https://github.com/retriable/RetriableSDWebImage'
+    spec.author   = { 'retriable' => 'retriable@retriable.com' }
+    spec.source   = { :git => 'https://github.com/retriable/RetriableSDWebImage.git',:tag => "#{spec.version}" }
     spec.description = 'Retriable SDWebImage.'
     spec.requires_arc = true
     spec.ios.deployment_target = '8.0'

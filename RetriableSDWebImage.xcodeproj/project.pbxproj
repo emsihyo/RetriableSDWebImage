@@ -793,7 +793,7 @@
 		0AFC36422089D3C900D2DCC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = emsihyo;
 				TargetAttributes = {
 					0AFC364A2089D3C900D2DCC1 = {
@@ -1449,7 +1449,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 726EC26ADA106A0F74B3ECE1 /* Pods-RetriableSDWebImage iOS.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -1476,7 +1476,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8FE1FC2AB06A0BBC02C2B10 /* Pods-RetriableSDWebImage iOS.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -1504,7 +1504,7 @@
 			baseConfigurationReference = 0DBDD262D119883458F5F21E /* Pods-RetriableSDWebImage watchOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -1533,7 +1533,7 @@
 			baseConfigurationReference = 26B9BC9F19909E68450F627D /* Pods-RetriableSDWebImage watchOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -1617,7 +1617,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CDCCFAD5105AC3297B791E28 /* Pods-RetriableSDWebImage macOS.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -1646,7 +1646,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 17AD33C634CF7A79FE82C539 /* Pods-RetriableSDWebImage macOS.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;

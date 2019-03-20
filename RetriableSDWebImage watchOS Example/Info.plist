@@ -26,7 +26,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.emsihyo.RetriableSDWebImage-iOS-Example</string>
+	<string>com.retriable.RetriableSDWebImage-iOS-Example</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>
