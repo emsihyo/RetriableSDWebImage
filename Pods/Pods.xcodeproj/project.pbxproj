@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -418,10 +418,10 @@
 		04B749AFA081ED21B392BDC3FE09F628 /* Pods-RetriableSDWebImage iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetriableSDWebImage iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
 		04DF044075D8681C99F45B895C152024 /* Pods-RetriableSDWebImage iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetriableSDWebImage iOS.release.xcconfig"; sourceTree = "<group>"; };
 		05C9E94F4D1670351C25CB4BA7704EBD /* Retriable-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-watchOS-umbrella.h"; path = "../Retriable-watchOS/Retriable-watchOS-umbrella.h"; sourceTree = "<group>"; };
-		0755F2B96E4BC9DB32A42F02A29FE070 /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Retriable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0755F2B96E4BC9DB32A42F02A29FE070 /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Retriable.framework; path = "Retriable-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0845585B56F7B4303F6C28059B129EE9 /* SDWebImage-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SDWebImage-iOS.modulemap"; sourceTree = "<group>"; };
 		08FEDB39E94E9534629D5437544FACEC /* SDWebImage-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SDWebImage-macOS.xcconfig"; path = "../SDWebImage-macOS/SDWebImage-macOS.xcconfig"; sourceTree = "<group>"; };
-		090344D7BC64E408973C860F4862EF36 /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_watchOS_Example_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		090344D7BC64E408973C860F4862EF36 /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RetriableSDWebImage_watchOS_Example_Extension.framework; path = "Pods-RetriableSDWebImage watchOS Example Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B01C55C3922DD93C109C006DDDE375A /* Pods-RetriableSDWebImage iOS Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RetriableSDWebImage iOS Example-Info.plist"; sourceTree = "<group>"; };
 		0BBB988CCF30FB05229ACE5CCA89E9F1 /* SDWebImage-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SDWebImage-tvOS-dummy.m"; path = "../SDWebImage-tvOS/SDWebImage-tvOS-dummy.m"; sourceTree = "<group>"; };
 		0BCA69B16F018C871082260913437592 /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/SDImageCacheConfig.h; sourceTree = "<group>"; };
@@ -472,7 +472,7 @@
 		482257351D3EF813771D56840D96B10C /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		495D0D7046AD9B77A5ABF953EE45AF46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4AF4D16FD1338940599194497B2CD58F /* Pods-RetriableSDWebImage watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetriableSDWebImage watchOS.debug.xcconfig"; sourceTree = "<group>"; };
-		4BF08D661A5921E29AE6DFAEFC8F3588 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF08D661A5921E29AE6DFAEFC8F3588 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = "SDWebImage-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0BE9817D4AD3B9590F968CDD63859F /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		4C9D84116EA4BFF4F4109FA94A7F8187 /* Retriable-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Retriable-iOS-prefix.pch"; sourceTree = "<group>"; };
 		4CD13BA4AC6225D96B46CB0FAFAB7832 /* Pods-RetriableSDWebImage macOS Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RetriableSDWebImage macOS Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -480,9 +480,9 @@
 		4F98C8E78E32EA73EF8101E07DE6CC00 /* NSImage+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+WebCache.h"; path = "SDWebImage/NSImage+WebCache.h"; sourceTree = "<group>"; };
 		5091C7A21A61611F1B49BBA5DEBBAEEC /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		522884EE6F95FE15933DA09EAA73D893 /* Pods-RetriableSDWebImage iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetriableSDWebImage iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		52B31560F0F960847F29C9DB699B375E /* Pods_RetriableSDWebImage_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B31560F0F960847F29C9DB699B375E /* Pods_RetriableSDWebImage_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RetriableSDWebImage_macOS.framework; path = "Pods-RetriableSDWebImage macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CC271E20E67E862B781F9F7109F6B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		53968B8523F575D618427C5F524F25DD /* Pods_RetriableSDWebImage_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53968B8523F575D618427C5F524F25DD /* Pods_RetriableSDWebImage_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RetriableSDWebImage_tvOS.framework; path = "Pods-RetriableSDWebImage tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55ADE31A284AC0CD08055DEFB2618598 /* Pods-RetriableSDWebImage iOS Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RetriableSDWebImage iOS Example.modulemap"; sourceTree = "<group>"; };
 		562834501FB7C5318AB4535615009ADE /* Retriable-watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Retriable-watchOS-Info.plist"; path = "../Retriable-watchOS/Retriable-watchOS-Info.plist"; sourceTree = "<group>"; };
 		584AB490775BEEE8588A61B099073687 /* SDWebImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageGIFCoder.m; path = SDWebImage/SDWebImageGIFCoder.m; sourceTree = "<group>"; };
@@ -494,7 +494,7 @@
 		64940830E1A03D15B1A8EDE94900EB0E /* SDWebImage-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SDWebImage-watchOS.modulemap"; path = "../SDWebImage-watchOS/SDWebImage-watchOS.modulemap"; sourceTree = "<group>"; };
 		66DADC36FE0FCD00E98A6E9BC1BB1516 /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/NSButton+WebCache.h"; sourceTree = "<group>"; };
 		67CBD62425667D574273ED91CE8E9A10 /* Retriable-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Retriable-watchOS.modulemap"; path = "../Retriable-watchOS/Retriable-watchOS.modulemap"; sourceTree = "<group>"; };
-		68494A25E388F48880F4B8FBE2E00835 /* Pods_RetriableSDWebImage_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68494A25E388F48880F4B8FBE2E00835 /* Pods_RetriableSDWebImage_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RetriableSDWebImage_iOS_Example.framework; path = "Pods-RetriableSDWebImage iOS Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CB8F9C9838561A420BADC51CBD4967 /* Pods-RetriableSDWebImage tvOS Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RetriableSDWebImage tvOS Example-Info.plist"; sourceTree = "<group>"; };
 		6C0A476919D3BBB7C1EF04076949F0D6 /* Pods-RetriableSDWebImage macOS Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RetriableSDWebImage macOS Example-umbrella.h"; sourceTree = "<group>"; };
 		6CF3E526351DB2A502BCBE0923C35BCD /* Pods-RetriableSDWebImage tvOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetriableSDWebImage tvOS Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -532,18 +532,18 @@
 		91D007C0F3AC460CD9635C8F93AA8657 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		926349D4BB738D46BCD1D158E0F40C3A /* Pods-RetriableSDWebImage macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RetriableSDWebImage macOS-dummy.m"; sourceTree = "<group>"; };
 		9A118EAD4C6AEDBE6AE4DD110046E69A /* SDWebImage-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SDWebImage-watchOS-dummy.m"; path = "../SDWebImage-watchOS/SDWebImage-watchOS-dummy.m"; sourceTree = "<group>"; };
-		9A448ADFA42ABF891194E9086FEB10A9 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A448ADFA42ABF891194E9086FEB10A9 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = "SDWebImage-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9398C0854EC7029AEB7A24A3C41484 /* SDWebImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoder.m; path = SDWebImage/SDWebImageCoder.m; sourceTree = "<group>"; };
 		9AACD0D16C9F864D8602809F7D9937D8 /* Pods-RetriableSDWebImage watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RetriableSDWebImage watchOS.modulemap"; sourceTree = "<group>"; };
 		9C191B0B805821EFB6504DF084F7AA52 /* Pods-RetriableSDWebImage tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RetriableSDWebImage tvOS-Info.plist"; sourceTree = "<group>"; };
 		9D38E2AA971100F25101D9678A6F894A /* SDWebImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCodersManager.h; path = SDWebImage/SDWebImageCodersManager.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E3D6B17E23D1C4689DA4D0592BDEAAE /* Retriable-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-macOS-umbrella.h"; path = "../Retriable-macOS/Retriable-macOS-umbrella.h"; sourceTree = "<group>"; };
 		9EC169A2EACE0766BD56B3513A360F94 /* Pods-RetriableSDWebImage macOS Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RetriableSDWebImage macOS Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A2774F7B8F6D5F9C5ED07CCED4A2AE08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A2EFC0E60CB31DA552DF7A4AC9326196 /* Retriable-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Retriable-macOS-Info.plist"; path = "../Retriable-macOS/Retriable-macOS-Info.plist"; sourceTree = "<group>"; };
 		A364C827EA02227221EF0CAED4268824 /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
-		A4896EED387101DDBDCF316967232093 /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Retriable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4896EED387101DDBDCF316967232093 /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Retriable.framework; path = "Retriable-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B2BE4E8EEFF6A4662FB184730E3EA8 /* Pods-RetriableSDWebImage tvOS Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RetriableSDWebImage tvOS Example.modulemap"; sourceTree = "<group>"; };
 		A71692D859C57A54E0C18942FA9AD950 /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/UIView+WebCache.m"; sourceTree = "<group>"; };
 		A911B147D458ABBFDC193783B811CA86 /* Retriable-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Retriable-tvOS.modulemap"; path = "../Retriable-tvOS/Retriable-tvOS.modulemap"; sourceTree = "<group>"; };
@@ -570,28 +570,28 @@
 		BF1B2558376DEFFB653DB2563818EFFE /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
 		C48FAA1C57B2A467829DB8A211DC8D8A /* SDWebImage-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SDWebImage-watchOS-prefix.pch"; path = "../SDWebImage-watchOS/SDWebImage-watchOS-prefix.pch"; sourceTree = "<group>"; };
 		C90EFCE5ED11ED4E8C296DCA4C75D1C4 /* Retriable-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-macOS-prefix.pch"; path = "../Retriable-macOS/Retriable-macOS-prefix.pch"; sourceTree = "<group>"; };
-		CA3E4FA1FBC07B4EFBBC325F00BEEAEE /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3E4FA1FBC07B4EFBBC325F00BEEAEE /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = "SDWebImage-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA95565CBFD830B9790B15632C18CFC8 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		CE461C8211637FE75BA86F4029426538 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
 		CEFF4BA71144F3DE3211736B1D02EC17 /* UIImage+MemoryCacheCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MemoryCacheCost.h"; path = "SDWebImage/UIImage+MemoryCacheCost.h"; sourceTree = "<group>"; };
-		CFCBDF11943B51EF342E6A856FD14180 /* Pods_RetriableSDWebImage_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCBDF11943B51EF342E6A856FD14180 /* Pods_RetriableSDWebImage_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RetriableSDWebImage_iOS.framework; path = "Pods-RetriableSDWebImage iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE96D0933FB2D5B3531ED0A5FD7A672 /* Pods-RetriableSDWebImage macOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetriableSDWebImage macOS Example.release.xcconfig"; sourceTree = "<group>"; };
 		D177A6D777B6395385EA90CC2C0DBECF /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
-		D17B2546D5CF79BDF17BAAA4F3811210 /* Pods_RetriableSDWebImage_macOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_macOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17B2546D5CF79BDF17BAAA4F3811210 /* Pods_RetriableSDWebImage_macOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RetriableSDWebImage_macOS_Example.framework; path = "Pods-RetriableSDWebImage macOS Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E0660D931E8E465B75EE388E4F1711 /* Pods-RetriableSDWebImage macOS Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RetriableSDWebImage macOS Example.modulemap"; sourceTree = "<group>"; };
 		D1FCB4046B89F305484F94C897651923 /* Retriable-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Retriable-tvOS.xcconfig"; path = "../Retriable-tvOS/Retriable-tvOS.xcconfig"; sourceTree = "<group>"; };
 		D28C306FB25E0E5665AEEC7B909BBBB1 /* SDWebImage-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "SDWebImage-macOS-Info.plist"; path = "../SDWebImage-macOS/SDWebImage-macOS-Info.plist"; sourceTree = "<group>"; };
-		D2A7C00CD4B02510117568443771873F /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A7C00CD4B02510117568443771873F /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = "SDWebImage-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D5CA53F6437EFF182F893A507BA8EE /* Pods-RetriableSDWebImage iOS Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RetriableSDWebImage iOS Example-umbrella.h"; sourceTree = "<group>"; };
 		D708F0BBD67914C9AAD11393E770F1B2 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
 		D8C19CE6BD19A6F1EC4361F2ACA4AFD0 /* SDWebImage-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-iOS-dummy.m"; sourceTree = "<group>"; };
 		DB848367C4911624AAF547C87131593A /* Retriable-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-tvOS-prefix.pch"; path = "../Retriable-tvOS/Retriable-tvOS-prefix.pch"; sourceTree = "<group>"; };
-		DBA5F5D7BE8C0B46BCF9A4A3B4113D29 /* Pods_RetriableSDWebImage_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE6048C802153C03E8DAF7D393542B4D /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Retriable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA5F5D7BE8C0B46BCF9A4A3B4113D29 /* Pods_RetriableSDWebImage_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RetriableSDWebImage_watchOS.framework; path = "Pods-RetriableSDWebImage watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6048C802153C03E8DAF7D393542B4D /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Retriable.framework; path = "Retriable-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12AEA7D85BACE76B5A78554943E52B0 /* Pods-RetriableSDWebImage tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RetriableSDWebImage tvOS.modulemap"; sourceTree = "<group>"; };
 		E2654001B1829CD6693D4FB19FE59427 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
 		E2BB0DAA12B158890F0E4E00F5D5AFDF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		E2EC1CF72FA09AD17F86D6D904967D7E /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Retriable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EC1CF72FA09AD17F86D6D904967D7E /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Retriable.framework; path = "Retriable-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67EBB365C8770323DA8864F68A6AED6 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
 		EC543A74E8D176E85D4F81C3DF9250EE /* Pods-RetriableSDWebImage iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RetriableSDWebImage iOS-dummy.m"; sourceTree = "<group>"; };
 		ECBE1350DB1DA4DEE9B912EA0F2CB2F1 /* SDWebImage-watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "SDWebImage-watchOS-Info.plist"; path = "../SDWebImage-watchOS/SDWebImage-watchOS-Info.plist"; sourceTree = "<group>"; };
@@ -604,7 +604,7 @@
 		F85AC4B46D2B40DFADCBED22AF17153D /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		F88F35A48004A9D25FDABA23AB54F1BF /* Pods-RetriableSDWebImage tvOS Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RetriableSDWebImage tvOS Example-dummy.m"; sourceTree = "<group>"; };
 		F8C43166E53B722FE7AF4B8D8D345F45 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
-		F9DB311440A662E9A84B600144A391C7 /* Pods_RetriableSDWebImage_tvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_tvOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DB311440A662E9A84B600144A391C7 /* Pods_RetriableSDWebImage_tvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RetriableSDWebImage_tvOS_Example.framework; path = "Pods-RetriableSDWebImage tvOS Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0B06556FBF2E7570FAB8BA4067263E /* RetriableOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RetriableOperation.h; path = Retriable/RetriableOperation.h; sourceTree = "<group>"; };
 		FA361D03A7B472B2F41235CC6201CEDA /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		FB6E895EBDC7113CA4319D62FF8552BD /* Pods-RetriableSDWebImage iOS Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RetriableSDWebImage iOS Example-dummy.m"; sourceTree = "<group>"; };
@@ -996,6 +996,7 @@
 				8996A20D5DDDD8258D2A66CE02FB51FA /* Core */,
 				7062627DEE188A1A6D410B2E16A5574C /* Support Files */,
 			);
+			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -1134,6 +1135,7 @@
 				4217BC5C970DD6B6AE128FF30E436BA5 /* RetriableOperation.m */,
 				5ABA1922DEAD71F954312407D66BCA51 /* Support Files */,
 			);
+			name = Retriable;
 			path = Retriable;
 			sourceTree = "<group>";
 		};
@@ -1702,15 +1704,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = BE4EEA8726DBEE3401CC9156521875A8 /* Products */;
@@ -2200,6 +2201,7 @@
 			baseConfigurationReference = B68B7207902AA3DA79807738C426527C /* Pods-RetriableSDWebImage macOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2213,7 +2215,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage macOS/Pods-RetriableSDWebImage macOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage macOS/Pods-RetriableSDWebImage macOS.modulemap";
@@ -2246,7 +2252,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2280,7 +2290,11 @@
 				INFOPLIST_FILE = "Target Support Files/Retriable-iOS/Retriable-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Retriable-iOS/Retriable-iOS.modulemap";
 				PRODUCT_MODULE_NAME = Retriable;
 				PRODUCT_NAME = Retriable;
@@ -2298,6 +2312,7 @@
 			baseConfigurationReference = CFE96D0933FB2D5B3531ED0A5FD7A672 /* Pods-RetriableSDWebImage macOS Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2311,7 +2326,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example.modulemap";
@@ -2332,6 +2351,7 @@
 			baseConfigurationReference = 6DCFC31B83A363D4B89517227C181B7B /* Pods-RetriableSDWebImage macOS Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2345,7 +2365,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example.modulemap";
@@ -2366,6 +2390,7 @@
 			baseConfigurationReference = 79E7E283ED82526847A58C94ACFBEEC7 /* Pods-RetriableSDWebImage macOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2379,7 +2404,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage macOS/Pods-RetriableSDWebImage macOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage macOS/Pods-RetriableSDWebImage macOS.modulemap";
@@ -2411,7 +2440,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Retriable-tvOS/Retriable-tvOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Retriable-tvOS/Retriable-tvOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Retriable-tvOS/Retriable-tvOS.modulemap";
 				PRODUCT_MODULE_NAME = Retriable;
 				PRODUCT_NAME = Retriable;
@@ -2441,7 +2474,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Retriable-tvOS/Retriable-tvOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Retriable-tvOS/Retriable-tvOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Retriable-tvOS/Retriable-tvOS.modulemap";
 				PRODUCT_MODULE_NAME = Retriable;
 				PRODUCT_NAME = Retriable;
@@ -2473,7 +2510,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Retriable-watchOS/Retriable-watchOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Retriable-watchOS/Retriable-watchOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Retriable-watchOS/Retriable-watchOS.modulemap";
 				PRODUCT_MODULE_NAME = Retriable;
 				PRODUCT_NAME = Retriable;
@@ -2492,7 +2533,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -2573,7 +2613,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2607,7 +2651,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage-watchOS/SDWebImage-watchOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SDWebImage-watchOS/SDWebImage-watchOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SDWebImage-watchOS/SDWebImage-watchOS.modulemap";
 				PRODUCT_MODULE_NAME = SDWebImage;
 				PRODUCT_NAME = SDWebImage;
@@ -2625,7 +2673,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -2676,7 +2723,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -2701,7 +2749,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2735,7 +2787,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage tvOS/Pods-RetriableSDWebImage tvOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage tvOS/Pods-RetriableSDWebImage tvOS.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2768,7 +2824,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2789,6 +2849,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8C959E38A6210509504A88BD7A4F4C4F /* Retriable-macOS.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2803,7 +2864,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Retriable-macOS/Retriable-macOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Retriable-macOS/Retriable-macOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/Retriable-macOS/Retriable-macOS.modulemap";
 				PRODUCT_MODULE_NAME = Retriable;
@@ -2833,7 +2898,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage watchOS/Pods-RetriableSDWebImage watchOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage watchOS/Pods-RetriableSDWebImage watchOS.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2867,7 +2936,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage-tvOS/SDWebImage-tvOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SDWebImage-tvOS/SDWebImage-tvOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SDWebImage-tvOS/SDWebImage-tvOS.modulemap";
 				PRODUCT_MODULE_NAME = SDWebImage;
 				PRODUCT_NAME = SDWebImage;
@@ -2885,6 +2958,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08FEDB39E94E9534629D5437544FACEC /* SDWebImage-macOS.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2899,7 +2973,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage-macOS/SDWebImage-macOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SDWebImage-macOS/SDWebImage-macOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/SDWebImage-macOS/SDWebImage-macOS.modulemap";
 				PRODUCT_MODULE_NAME = SDWebImage;
@@ -2929,7 +3007,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage-watchOS/SDWebImage-watchOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SDWebImage-watchOS/SDWebImage-watchOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SDWebImage-watchOS/SDWebImage-watchOS.modulemap";
 				PRODUCT_MODULE_NAME = SDWebImage;
 				PRODUCT_NAME = SDWebImage;
@@ -2948,6 +3030,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8C959E38A6210509504A88BD7A4F4C4F /* Retriable-macOS.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2962,7 +3045,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Retriable-macOS/Retriable-macOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Retriable-macOS/Retriable-macOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/Retriable-macOS/Retriable-macOS.modulemap";
 				PRODUCT_MODULE_NAME = Retriable;
@@ -2992,7 +3079,11 @@
 				INFOPLIST_FILE = "Target Support Files/SDWebImage-iOS/SDWebImage-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SDWebImage-iOS/SDWebImage-iOS.modulemap";
 				PRODUCT_MODULE_NAME = SDWebImage;
 				PRODUCT_NAME = SDWebImage;
@@ -3022,7 +3113,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Retriable-watchOS/Retriable-watchOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Retriable-watchOS/Retriable-watchOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Retriable-watchOS/Retriable-watchOS.modulemap";
 				PRODUCT_MODULE_NAME = Retriable;
 				PRODUCT_NAME = Retriable;
@@ -3053,7 +3148,11 @@
 				INFOPLIST_FILE = "Target Support Files/Retriable-iOS/Retriable-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Retriable-iOS/Retriable-iOS.modulemap";
 				PRODUCT_MODULE_NAME = Retriable;
 				PRODUCT_NAME = Retriable;
@@ -3071,6 +3170,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08FEDB39E94E9534629D5437544FACEC /* SDWebImage-macOS.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -3085,7 +3185,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage-macOS/SDWebImage-macOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SDWebImage-macOS/SDWebImage-macOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/SDWebImage-macOS/SDWebImage-macOS.modulemap";
 				PRODUCT_MODULE_NAME = SDWebImage;
@@ -3115,7 +3219,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage watchOS/Pods-RetriableSDWebImage watchOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage watchOS/Pods-RetriableSDWebImage watchOS.modulemap";
 				OTHER_LDFLAGS = "";
@@ -3148,7 +3256,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage tvOS/Pods-RetriableSDWebImage tvOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage tvOS/Pods-RetriableSDWebImage tvOS.modulemap";
 				OTHER_LDFLAGS = "";
@@ -3183,7 +3295,11 @@
 				INFOPLIST_FILE = "Target Support Files/SDWebImage-iOS/SDWebImage-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SDWebImage-iOS/SDWebImage-iOS.modulemap";
 				PRODUCT_MODULE_NAME = SDWebImage;
 				PRODUCT_NAME = SDWebImage;
@@ -3214,7 +3330,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage iOS/Pods-RetriableSDWebImage iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage iOS/Pods-RetriableSDWebImage iOS.modulemap";
 				OTHER_LDFLAGS = "";
@@ -3248,7 +3368,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage iOS/Pods-RetriableSDWebImage iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage iOS/Pods-RetriableSDWebImage iOS.modulemap";
 				OTHER_LDFLAGS = "";
@@ -3281,7 +3405,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -3313,7 +3441,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -3347,7 +3479,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage-tvOS/SDWebImage-tvOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SDWebImage-tvOS/SDWebImage-tvOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SDWebImage-tvOS/SDWebImage-tvOS.modulemap";
 				PRODUCT_MODULE_NAME = SDWebImage;
 				PRODUCT_NAME = SDWebImage;

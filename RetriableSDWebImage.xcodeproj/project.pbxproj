@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		099DA071ED3CAF8A42BFFA6B /* Pods_RetriableSDWebImage_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E35EDD3C950D69E4B34090 /* Pods_RetriableSDWebImage_tvOS.framework */; };
 		0A10E0812089E8FF006E175E /* UIButton+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A10E07F2089E8FF006E175E /* UIButton+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A10E0832089E8FF006E175E /* UIButton+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A10E07F2089E8FF006E175E /* UIButton+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A10E0852089E8FF006E175E /* UIButton+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A10E0802089E8FF006E175E /* UIButton+RetriableSDWebImage.m */; };
@@ -90,13 +89,14 @@
 		0AFC374E2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC374A2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AFC37502089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC374B2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m */; };
 		0AFC37522089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC374B2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m */; };
-		0BDB8ECAB0E5E62436CDA886 /* Pods_RetriableSDWebImage_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0696FE0C63983B10C5DDC993 /* Pods_RetriableSDWebImage_watchOS.framework */; };
-		0E38542FDB0D9734B31B3842 /* Pods_RetriableSDWebImage_macOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239C2AE6A7877B77DFF8D820 /* Pods_RetriableSDWebImage_macOS_Example.framework */; };
-		3B8F15CA993D46E78B43421E /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A7A53B412477D7C3893ACD /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework */; };
-		7BB9276495D3DF5E4DC25154 /* Pods_RetriableSDWebImage_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C081525994BBB3429CE4F95 /* Pods_RetriableSDWebImage_macOS.framework */; };
-		8A66C6AF1B83EB66B29BC975 /* Pods_RetriableSDWebImage_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCF47F3902B1B690D146D37 /* Pods_RetriableSDWebImage_iOS_Example.framework */; };
-		8D95EA54D97053A16E1BF634 /* Pods_RetriableSDWebImage_tvOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D01047B041D5C839D90B47 /* Pods_RetriableSDWebImage_tvOS_Example.framework */; };
-		A1E8E0BD7C22318FD0A3AB36 /* Pods_RetriableSDWebImage_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B244B26BC9DB0B66CC0CF639 /* Pods_RetriableSDWebImage_iOS.framework */; };
+		1347A7EB6D3A146F93866E02 /* Pods_RetriableSDWebImage_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1539338C8A7C8E1B1C55364 /* Pods_RetriableSDWebImage_iOS_Example.framework */; };
+		269E0994E7EB60FAA870673A /* Pods_RetriableSDWebImage_macOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09827BAD92A2AB2867DD2235 /* Pods_RetriableSDWebImage_macOS_Example.framework */; };
+		425941DED7265CF82029788F /* Pods_RetriableSDWebImage_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7A29974AE5D9FCAE69579D /* Pods_RetriableSDWebImage_tvOS.framework */; };
+		75E5739300EFE66F8B61CCE9 /* Pods_RetriableSDWebImage_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F3FCCCD342676EAA6CB7F2 /* Pods_RetriableSDWebImage_iOS.framework */; };
+		89644D470DF46BDBE41FEDDF /* Pods_RetriableSDWebImage_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADA8E1FFDE5919F1B0D391D /* Pods_RetriableSDWebImage_macOS.framework */; };
+		8C5B2A4A7F2A47885FC452E2 /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F195DEE54095B5ABA9034BD1 /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework */; };
+		A845321CD16D149721C3B195 /* Pods_RetriableSDWebImage_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261FB7405B8E1A480B5D8875 /* Pods_RetriableSDWebImage_watchOS.framework */; };
+		D7225CADCE77F92F95479F5C /* Pods_RetriableSDWebImage_tvOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E22D7BC77FCC5CDF4A681 /* Pods_RetriableSDWebImage_tvOS_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -214,8 +214,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0388E7DA1BE68B78826BDA46 /* Pods-RetriableSDWebImage iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage iOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0696FE0C63983B10C5DDC993 /* Pods_RetriableSDWebImage_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		033E313B23241D74208E90EB /* Pods-RetriableSDWebImage tvOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage tvOS Example.release.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		09827BAD92A2AB2867DD2235 /* Pods_RetriableSDWebImage_macOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_macOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A10E07F2089E8FF006E175E /* UIButton+RetriableSDWebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+RetriableSDWebImage.h"; sourceTree = "<group>"; };
 		0A10E0802089E8FF006E175E /* UIButton+RetriableSDWebImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RetriableSDWebImage.m"; sourceTree = "<group>"; };
 		0A10E0892089EB27006E175E /* NSButton+RetriableSDWebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSButton+RetriableSDWebImage.h"; sourceTree = "<group>"; };
@@ -277,29 +277,28 @@
 		0AFC374B2089E62800D2DCC1 /* UIImageView+RetriableSDWebImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+RetriableSDWebImage.m"; sourceTree = "<group>"; };
 		0AFEF853208B901600D6FEC4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		0AFEF854208B901600D6FEC4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
-		0DBDD262D119883458F5F21E /* Pods-RetriableSDWebImage watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage watchOS/Pods-RetriableSDWebImage watchOS.debug.xcconfig"; sourceTree = "<group>"; };
-		17AD33C634CF7A79FE82C539 /* Pods-RetriableSDWebImage macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage macOS/Pods-RetriableSDWebImage macOS.release.xcconfig"; sourceTree = "<group>"; };
-		239C2AE6A7877B77DFF8D820 /* Pods_RetriableSDWebImage_macOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_macOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26B9BC9F19909E68450F627D /* Pods-RetriableSDWebImage watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage watchOS/Pods-RetriableSDWebImage watchOS.release.xcconfig"; sourceTree = "<group>"; };
-		47E35EDD3C950D69E4B34090 /* Pods_RetriableSDWebImage_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BA777AC7D2CE9AAF85270A5 /* Pods-RetriableSDWebImage tvOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage tvOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4FA17D6D0D4338DD1E27A7BF /* Pods-RetriableSDWebImage tvOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage tvOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example.release.xcconfig"; sourceTree = "<group>"; };
-		50A1DACDB59F7D8351606FF8 /* Pods_RetriableSDWebImage_watchOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_watchOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		726EC26ADA106A0F74B3ECE1 /* Pods-RetriableSDWebImage iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage iOS/Pods-RetriableSDWebImage iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		7C081525994BBB3429CE4F95 /* Pods_RetriableSDWebImage_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DEE9883D7C5A653739EAAD1 /* Pods-RetriableSDWebImage macOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage macOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example.release.xcconfig"; sourceTree = "<group>"; };
-		91D01047B041D5C839D90B47 /* Pods_RetriableSDWebImage_tvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_tvOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CFE25538B1DB074273B7ED0 /* Pods-RetriableSDWebImage iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage iOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example.release.xcconfig"; sourceTree = "<group>"; };
-		A1F4A945F14BEEDD2551CB8B /* Pods-RetriableSDWebImage macOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage macOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B1D71778D7F0BB25402FD1FB /* Pods-RetriableSDWebImage tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage tvOS/Pods-RetriableSDWebImage tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		B244B26BC9DB0B66CC0CF639 /* Pods_RetriableSDWebImage_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDCF47F3902B1B690D146D37 /* Pods_RetriableSDWebImage_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9A7A53B412477D7C3893ACD /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_watchOS_Example_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDCCFAD5105AC3297B791E28 /* Pods-RetriableSDWebImage macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage macOS/Pods-RetriableSDWebImage macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		DA117F18A3E850A86406C25C /* Pods-RetriableSDWebImage tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage tvOS/Pods-RetriableSDWebImage tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		DB4B5A5136C8E0D6B3F964F6 /* Pods-RetriableSDWebImage watchOS Example Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage watchOS Example Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension.release.xcconfig"; sourceTree = "<group>"; };
-		F4EB2FD75CF948752053692D /* Pods-RetriableSDWebImage watchOS Example Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage watchOS Example Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		F8FE1FC2AB06A0BBC02C2B10 /* Pods-RetriableSDWebImage iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableSDWebImage iOS/Pods-RetriableSDWebImage iOS.release.xcconfig"; sourceTree = "<group>"; };
+		13AFF9253C70980C9822A778 /* Pods-RetriableSDWebImage tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage tvOS/Pods-RetriableSDWebImage tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		15A1D32CC32B0D09FB4B09DC /* Pods-RetriableSDWebImage watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage watchOS.release.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage watchOS/Pods-RetriableSDWebImage watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		261FB7405B8E1A480B5D8875 /* Pods_RetriableSDWebImage_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F727C671C13DF8596DA2E0 /* Pods-RetriableSDWebImage macOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage macOS Example.debug.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2AAA19C31DC1DC200BE1EF1E /* Pods-RetriableSDWebImage tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage tvOS.release.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage tvOS/Pods-RetriableSDWebImage tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2E55BE35657DBF835EFA92B4 /* Pods-RetriableSDWebImage iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage iOS Example.release.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		40E0544985082F14B7BE519A /* Pods-RetriableSDWebImage macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage macOS.debug.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage macOS/Pods-RetriableSDWebImage macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4F9801A010A1B734EEF7094B /* Pods-RetriableSDWebImage iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage iOS.release.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage iOS/Pods-RetriableSDWebImage iOS.release.xcconfig"; sourceTree = "<group>"; };
+		5ADA8E1FFDE5919F1B0D391D /* Pods_RetriableSDWebImage_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CF7D6E30F2CB4CB12A7FED /* Pods-RetriableSDWebImage watchOS Example Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage watchOS Example Extension.debug.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		6B7A29974AE5D9FCAE69579D /* Pods_RetriableSDWebImage_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1D843B3C5142F2DB44F160 /* Pods-RetriableSDWebImage watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage watchOS.debug.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage watchOS/Pods-RetriableSDWebImage watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A146FF9DC19B159FF0E9E9EE /* Pods-RetriableSDWebImage watchOS Example Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage watchOS Example Extension.release.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension.release.xcconfig"; sourceTree = "<group>"; };
+		AB90F5A4AC6A80B0A16A6861 /* Pods-RetriableSDWebImage macOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage macOS Example.release.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		B1539338C8A7C8E1B1C55364 /* Pods_RetriableSDWebImage_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1C338906EBC26441CDE928 /* Pods-RetriableSDWebImage tvOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage tvOS Example.debug.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D2EF482EEBA14907AFA53FFA /* Pods-RetriableSDWebImage iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage iOS Example.debug.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DE59CB8626987A2A967F67A0 /* Pods-RetriableSDWebImage macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage macOS.release.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage macOS/Pods-RetriableSDWebImage macOS.release.xcconfig"; sourceTree = "<group>"; };
+		E7F3FCCCD342676EAA6CB7F2 /* Pods_RetriableSDWebImage_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1068DBA9FEAB7D10C1A643 /* Pods-RetriableSDWebImage iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableSDWebImage iOS.debug.xcconfig"; path = "Target Support Files/Pods-RetriableSDWebImage iOS/Pods-RetriableSDWebImage iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EC2E22D7BC77FCC5CDF4A681 /* Pods_RetriableSDWebImage_tvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_tvOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F195DEE54095B5ABA9034BD1 /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableSDWebImage_watchOS_Example_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,7 +306,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1E8E0BD7C22318FD0A3AB36 /* Pods_RetriableSDWebImage_iOS.framework in Frameworks */,
+				75E5739300EFE66F8B61CCE9 /* Pods_RetriableSDWebImage_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +314,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BDB8ECAB0E5E62436CDA886 /* Pods_RetriableSDWebImage_watchOS.framework in Frameworks */,
+				A845321CD16D149721C3B195 /* Pods_RetriableSDWebImage_watchOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +322,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				099DA071ED3CAF8A42BFFA6B /* Pods_RetriableSDWebImage_tvOS.framework in Frameworks */,
+				425941DED7265CF82029788F /* Pods_RetriableSDWebImage_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +330,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BB9276495D3DF5E4DC25154 /* Pods_RetriableSDWebImage_macOS.framework in Frameworks */,
+				89644D470DF46BDBE41FEDDF /* Pods_RetriableSDWebImage_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AFC36ED2089D65700D2DCC1 /* RetriableSDWebImage.framework in Frameworks */,
-				8A66C6AF1B83EB66B29BC975 /* Pods_RetriableSDWebImage_iOS_Example.framework in Frameworks */,
+				1347A7EB6D3A146F93866E02 /* Pods_RetriableSDWebImage_iOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AFC36F72089D66600D2DCC1 /* RetriableSDWebImage.framework in Frameworks */,
-				8D95EA54D97053A16E1BF634 /* Pods_RetriableSDWebImage_tvOS_Example.framework in Frameworks */,
+				D7225CADCE77F92F95479F5C /* Pods_RetriableSDWebImage_tvOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AFC36FC2089D66F00D2DCC1 /* RetriableSDWebImage.framework in Frameworks */,
-				0E38542FDB0D9734B31B3842 /* Pods_RetriableSDWebImage_macOS_Example.framework in Frameworks */,
+				269E0994E7EB60FAA870673A /* Pods_RetriableSDWebImage_macOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A39EF82208A73FF002BF53D /* RetriableSDWebImage.framework in Frameworks */,
-				3B8F15CA993D46E78B43421E /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework in Frameworks */,
+				8C5B2A4A7F2A47885FC452E2 /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,27 +380,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		023B7739ECDA1FD4DA61EAF7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B244B26BC9DB0B66CC0CF639 /* Pods_RetriableSDWebImage_iOS.framework */,
-				BDCF47F3902B1B690D146D37 /* Pods_RetriableSDWebImage_iOS_Example.framework */,
-				7C081525994BBB3429CE4F95 /* Pods_RetriableSDWebImage_macOS.framework */,
-				239C2AE6A7877B77DFF8D820 /* Pods_RetriableSDWebImage_macOS_Example.framework */,
-				47E35EDD3C950D69E4B34090 /* Pods_RetriableSDWebImage_tvOS.framework */,
-				91D01047B041D5C839D90B47 /* Pods_RetriableSDWebImage_tvOS_Example.framework */,
-				0696FE0C63983B10C5DDC993 /* Pods_RetriableSDWebImage_watchOS.framework */,
-				50A1DACDB59F7D8351606FF8 /* Pods_RetriableSDWebImage_watchOS_Example.framework */,
-				C9A7A53B412477D7C3893ACD /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		0AFC36412089D3C900D2DCC1 = {
 			isa = PBXGroup;
 			children = (
-				023B7739ECDA1FD4DA61EAF7 /* Frameworks */,
-				A9AEEBAE29B06341329B50CE /* Pods */,
 				0AFC364C2089D3C900D2DCC1 /* Products */,
 				0AFC364D2089D3C900D2DCC1 /* RetriableSDWebImage */,
 				0AFC36922089D61B00D2DCC1 /* RetriableSDWebImage iOS Example */,
@@ -409,6 +390,8 @@
 				0AFC36C62089D63A00D2DCC1 /* RetriableSDWebImage tvOS Example */,
 				0AFC37042089D6B700D2DCC1 /* RetriableSDWebImage watchOS Example */,
 				0AFC37132089D6B800D2DCC1 /* RetriableSDWebImage watchOS Example Extension */,
+				7EFE1B78943AFE482C0B7662 /* Pods */,
+				BDEA875D0582375FA4D50B67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -522,27 +505,43 @@
 			path = "RetriableSDWebImage watchOS Example Extension";
 			sourceTree = "<group>";
 		};
-		A9AEEBAE29B06341329B50CE /* Pods */ = {
+		7EFE1B78943AFE482C0B7662 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				726EC26ADA106A0F74B3ECE1 /* Pods-RetriableSDWebImage iOS.debug.xcconfig */,
-				F8FE1FC2AB06A0BBC02C2B10 /* Pods-RetriableSDWebImage iOS.release.xcconfig */,
-				0388E7DA1BE68B78826BDA46 /* Pods-RetriableSDWebImage iOS Example.debug.xcconfig */,
-				9CFE25538B1DB074273B7ED0 /* Pods-RetriableSDWebImage iOS Example.release.xcconfig */,
-				CDCCFAD5105AC3297B791E28 /* Pods-RetriableSDWebImage macOS.debug.xcconfig */,
-				17AD33C634CF7A79FE82C539 /* Pods-RetriableSDWebImage macOS.release.xcconfig */,
-				A1F4A945F14BEEDD2551CB8B /* Pods-RetriableSDWebImage macOS Example.debug.xcconfig */,
-				8DEE9883D7C5A653739EAAD1 /* Pods-RetriableSDWebImage macOS Example.release.xcconfig */,
-				DA117F18A3E850A86406C25C /* Pods-RetriableSDWebImage tvOS.debug.xcconfig */,
-				B1D71778D7F0BB25402FD1FB /* Pods-RetriableSDWebImage tvOS.release.xcconfig */,
-				4BA777AC7D2CE9AAF85270A5 /* Pods-RetriableSDWebImage tvOS Example.debug.xcconfig */,
-				4FA17D6D0D4338DD1E27A7BF /* Pods-RetriableSDWebImage tvOS Example.release.xcconfig */,
-				0DBDD262D119883458F5F21E /* Pods-RetriableSDWebImage watchOS.debug.xcconfig */,
-				26B9BC9F19909E68450F627D /* Pods-RetriableSDWebImage watchOS.release.xcconfig */,
-				F4EB2FD75CF948752053692D /* Pods-RetriableSDWebImage watchOS Example Extension.debug.xcconfig */,
-				DB4B5A5136C8E0D6B3F964F6 /* Pods-RetriableSDWebImage watchOS Example Extension.release.xcconfig */,
+				EA1068DBA9FEAB7D10C1A643 /* Pods-RetriableSDWebImage iOS.debug.xcconfig */,
+				4F9801A010A1B734EEF7094B /* Pods-RetriableSDWebImage iOS.release.xcconfig */,
+				D2EF482EEBA14907AFA53FFA /* Pods-RetriableSDWebImage iOS Example.debug.xcconfig */,
+				2E55BE35657DBF835EFA92B4 /* Pods-RetriableSDWebImage iOS Example.release.xcconfig */,
+				40E0544985082F14B7BE519A /* Pods-RetriableSDWebImage macOS.debug.xcconfig */,
+				DE59CB8626987A2A967F67A0 /* Pods-RetriableSDWebImage macOS.release.xcconfig */,
+				27F727C671C13DF8596DA2E0 /* Pods-RetriableSDWebImage macOS Example.debug.xcconfig */,
+				AB90F5A4AC6A80B0A16A6861 /* Pods-RetriableSDWebImage macOS Example.release.xcconfig */,
+				13AFF9253C70980C9822A778 /* Pods-RetriableSDWebImage tvOS.debug.xcconfig */,
+				2AAA19C31DC1DC200BE1EF1E /* Pods-RetriableSDWebImage tvOS.release.xcconfig */,
+				BF1C338906EBC26441CDE928 /* Pods-RetriableSDWebImage tvOS Example.debug.xcconfig */,
+				033E313B23241D74208E90EB /* Pods-RetriableSDWebImage tvOS Example.release.xcconfig */,
+				8D1D843B3C5142F2DB44F160 /* Pods-RetriableSDWebImage watchOS.debug.xcconfig */,
+				15A1D32CC32B0D09FB4B09DC /* Pods-RetriableSDWebImage watchOS.release.xcconfig */,
+				61CF7D6E30F2CB4CB12A7FED /* Pods-RetriableSDWebImage watchOS Example Extension.debug.xcconfig */,
+				A146FF9DC19B159FF0E9E9EE /* Pods-RetriableSDWebImage watchOS Example Extension.release.xcconfig */,
 			);
 			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BDEA875D0582375FA4D50B67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7F3FCCCD342676EAA6CB7F2 /* Pods_RetriableSDWebImage_iOS.framework */,
+				B1539338C8A7C8E1B1C55364 /* Pods_RetriableSDWebImage_iOS_Example.framework */,
+				5ADA8E1FFDE5919F1B0D391D /* Pods_RetriableSDWebImage_macOS.framework */,
+				09827BAD92A2AB2867DD2235 /* Pods_RetriableSDWebImage_macOS_Example.framework */,
+				6B7A29974AE5D9FCAE69579D /* Pods_RetriableSDWebImage_tvOS.framework */,
+				EC2E22D7BC77FCC5CDF4A681 /* Pods_RetriableSDWebImage_tvOS_Example.framework */,
+				261FB7405B8E1A480B5D8875 /* Pods_RetriableSDWebImage_watchOS.framework */,
+				F195DEE54095B5ABA9034BD1 /* Pods_RetriableSDWebImage_watchOS_Example_Extension.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -611,7 +610,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AFC36532089D3C900D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage iOS" */;
 			buildPhases = (
-				2E937D35F57786505B1DF163 /* [CP] Check Pods Manifest.lock */,
+				2EFA9B3929ABD574AEBE2EC7 /* [CP] Check Pods Manifest.lock */,
 				0AFC36462089D3C900D2DCC1 /* Sources */,
 				0AFC36472089D3C900D2DCC1 /* Frameworks */,
 				0AFC36482089D3C900D2DCC1 /* Headers */,
@@ -630,7 +629,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AFC366D2089D45500D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage watchOS" */;
 			buildPhases = (
-				2E19D1AD06ACFBA99C591D97 /* [CP] Check Pods Manifest.lock */,
+				143D6FCF90BBD7E04F975FDA /* [CP] Check Pods Manifest.lock */,
 				0AFC36632089D45400D2DCC1 /* Sources */,
 				0AFC36642089D45400D2DCC1 /* Frameworks */,
 				0AFC36652089D45400D2DCC1 /* Headers */,
@@ -649,7 +648,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AFC367A2089D49500D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage tvOS" */;
 			buildPhases = (
-				C34FEB1B2DA59A5C8020169F /* [CP] Check Pods Manifest.lock */,
+				7061CD747BF62D4E7AA2A993 /* [CP] Check Pods Manifest.lock */,
 				0AFC36702089D49500D2DCC1 /* Sources */,
 				0AFC36712089D49500D2DCC1 /* Frameworks */,
 				0AFC36722089D49500D2DCC1 /* Headers */,
@@ -668,7 +667,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AFC36872089D4F500D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage macOS" */;
 			buildPhases = (
-				F6F5A9D19D667016E696BDBF /* [CP] Check Pods Manifest.lock */,
+				A58075BEF6B194D9B090CD7F /* [CP] Check Pods Manifest.lock */,
 				0AFC367D2089D4F500D2DCC1 /* Sources */,
 				0AFC367E2089D4F500D2DCC1 /* Frameworks */,
 				0AFC367F2089D4F500D2DCC1 /* Headers */,
@@ -687,13 +686,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AFC36A42089D61C00D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage iOS Example" */;
 			buildPhases = (
-				82EEC72C7B591F283F2B0FBC /* [CP] Check Pods Manifest.lock */,
+				C34BB217DD75E4829A1DD77E /* [CP] Check Pods Manifest.lock */,
 				0AFC368D2089D61B00D2DCC1 /* Sources */,
 				0AFC368E2089D61B00D2DCC1 /* Frameworks */,
 				0AFC368F2089D61B00D2DCC1 /* Resources */,
 				0AFC36F12089D65800D2DCC1 /* Embed Frameworks */,
 				0AFC37272089D6B800D2DCC1 /* Embed Watch Content */,
-				FA0DE42CB319524DAC23BAD1 /* [CP] Embed Pods Frameworks */,
+				43C18A04561FE00F9ED0B422 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -710,12 +709,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AFC36D52089D63B00D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage tvOS Example" */;
 			buildPhases = (
-				774A612E175D38CBDFFD3B3E /* [CP] Check Pods Manifest.lock */,
+				199EDF7C1BA6ED9046B0D8AA /* [CP] Check Pods Manifest.lock */,
 				0AFC36C12089D63A00D2DCC1 /* Sources */,
 				0AFC36C22089D63A00D2DCC1 /* Frameworks */,
 				0AFC36C32089D63A00D2DCC1 /* Resources */,
 				0AFC36FB2089D66600D2DCC1 /* Embed Frameworks */,
-				84FE0DCF8D5CD50481222812 /* [CP] Embed Pods Frameworks */,
+				B53913034799FED2776BAE3D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -731,12 +730,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AFC36EA2089D64F00D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage macOS Example" */;
 			buildPhases = (
-				A6BDBB73687145AA1D137F5A /* [CP] Check Pods Manifest.lock */,
+				43B3F25DFA324975572ACEE4 /* [CP] Check Pods Manifest.lock */,
 				0AFC36D82089D64E00D2DCC1 /* Sources */,
 				0AFC36D92089D64E00D2DCC1 /* Frameworks */,
 				0AFC36DA2089D64E00D2DCC1 /* Resources */,
 				0AFC37002089D67000D2DCC1 /* Embed Frameworks */,
-				9C5C5EA19A777488A810F5CC /* [CP] Embed Pods Frameworks */,
+				32E9ADD69CC90B9998C72D49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -770,12 +769,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AFC37202089D6B800D2DCC1 /* Build configuration list for PBXNativeTarget "RetriableSDWebImage watchOS Example Extension" */;
 			buildPhases = (
-				973EAE74EA2BD03A70EEF925 /* [CP] Check Pods Manifest.lock */,
+				FA8FB914A191A515F5AFABA9 /* [CP] Check Pods Manifest.lock */,
 				0AFC370B2089D6B800D2DCC1 /* Sources */,
 				0AFC370C2089D6B800D2DCC1 /* Frameworks */,
 				0AFC370D2089D6B800D2DCC1 /* Resources */,
 				0A39EF86208A7400002BF53D /* Embed Frameworks */,
-				E58D0472B1A31045A05FF7F8 /* [CP] Embed Pods Frameworks */,
+				D98B6F3AD866149F28513846 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -933,16 +932,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E19D1AD06ACFBA99C591D97 /* [CP] Check Pods Manifest.lock */ = {
+		143D6FCF90BBD7E04F975FDA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage watchOS-checkManifestLockResult.txt",
 			);
@@ -951,34 +954,20 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2E937D35F57786505B1DF163 /* [CP] Check Pods Manifest.lock */ = {
+		199EDF7C1BA6ED9046B0D8AA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage iOS-checkManifestLockResult.txt",
+			outputFileListPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		774A612E175D38CBDFFD3B3E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage tvOS Example-checkManifestLockResult.txt",
 			);
@@ -987,66 +976,34 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		82EEC72C7B591F283F2B0FBC /* [CP] Check Pods Manifest.lock */ = {
+		2EFA9B3929ABD574AEBE2EC7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage iOS Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		84FE0DCF8D5CD50481222812 /* [CP] Embed Pods Frameworks */ = {
+		32E9ADD69CC90B9998C72D49 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Retriable-tvOS/Retriable.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage-tvOS/SDWebImage.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		973EAE74EA2BD03A70EEF925 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage watchOS Example Extension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9C5C5EA19A777488A810F5CC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example-frameworks.sh",
@@ -1054,6 +1011,8 @@
 				"${BUILT_PRODUCTS_DIR}/SDWebImage-macOS/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -1063,16 +1022,20 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A6BDBB73687145AA1D137F5A /* [CP] Check Pods Manifest.lock */ = {
+		43B3F25DFA324975572ACEE4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage macOS Example-checkManifestLockResult.txt",
 			);
@@ -1081,16 +1044,44 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C34FEB1B2DA59A5C8020169F /* [CP] Check Pods Manifest.lock */ = {
+		43C18A04561FE00F9ED0B422 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Retriable-iOS/Retriable.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-iOS/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7061CD747BF62D4E7AA2A993 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage tvOS-checkManifestLockResult.txt",
 			);
@@ -1099,10 +1090,80 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E58D0472B1A31045A05FF7F8 /* [CP] Embed Pods Frameworks */ = {
+		A58075BEF6B194D9B090CD7F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B53913034799FED2776BAE3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Retriable-tvOS/Retriable.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-tvOS/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C34BB217DD75E4829A1DD77E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage iOS Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D98B6F3AD866149F28513846 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension-frameworks.sh",
@@ -1110,6 +1171,8 @@
 				"${BUILT_PRODUCTS_DIR}/SDWebImage-watchOS/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -1119,42 +1182,26 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6F5A9D19D667016E696BDBF /* [CP] Check Pods Manifest.lock */ = {
+		FA8FB914A191A515F5AFABA9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage macOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RetriableSDWebImage watchOS Example Extension-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA0DE42CB319524DAC23BAD1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Retriable-iOS/Retriable.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage-iOS/SDWebImage.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1447,7 +1494,7 @@
 		};
 		0AFC36542089D3C900D2DCC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 726EC26ADA106A0F74B3ECE1 /* Pods-RetriableSDWebImage iOS.debug.xcconfig */;
+			baseConfigurationReference = EA1068DBA9FEAB7D10C1A643 /* Pods-RetriableSDWebImage iOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -1476,7 +1523,7 @@
 		};
 		0AFC36552089D3C900D2DCC1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8FE1FC2AB06A0BBC02C2B10 /* Pods-RetriableSDWebImage iOS.release.xcconfig */;
+			baseConfigurationReference = 4F9801A010A1B734EEF7094B /* Pods-RetriableSDWebImage iOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -1505,7 +1552,7 @@
 		};
 		0AFC366E2089D45500D2DCC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DBDD262D119883458F5F21E /* Pods-RetriableSDWebImage watchOS.debug.xcconfig */;
+			baseConfigurationReference = 8D1D843B3C5142F2DB44F160 /* Pods-RetriableSDWebImage watchOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1536,7 +1583,7 @@
 		};
 		0AFC366F2089D45500D2DCC1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26B9BC9F19909E68450F627D /* Pods-RetriableSDWebImage watchOS.release.xcconfig */;
+			baseConfigurationReference = 15A1D32CC32B0D09FB4B09DC /* Pods-RetriableSDWebImage watchOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1567,7 +1614,7 @@
 		};
 		0AFC367B2089D49500D2DCC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA117F18A3E850A86406C25C /* Pods-RetriableSDWebImage tvOS.debug.xcconfig */;
+			baseConfigurationReference = 13AFF9253C70980C9822A778 /* Pods-RetriableSDWebImage tvOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -1597,7 +1644,7 @@
 		};
 		0AFC367C2089D49500D2DCC1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1D71778D7F0BB25402FD1FB /* Pods-RetriableSDWebImage tvOS.release.xcconfig */;
+			baseConfigurationReference = 2AAA19C31DC1DC200BE1EF1E /* Pods-RetriableSDWebImage tvOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -1627,7 +1674,7 @@
 		};
 		0AFC36882089D4F500D2DCC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDCCFAD5105AC3297B791E28 /* Pods-RetriableSDWebImage macOS.debug.xcconfig */;
+			baseConfigurationReference = 40E0544985082F14B7BE519A /* Pods-RetriableSDWebImage macOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -1658,7 +1705,7 @@
 		};
 		0AFC36892089D4F500D2DCC1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17AD33C634CF7A79FE82C539 /* Pods-RetriableSDWebImage macOS.release.xcconfig */;
+			baseConfigurationReference = DE59CB8626987A2A967F67A0 /* Pods-RetriableSDWebImage macOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -1689,7 +1736,7 @@
 		};
 		0AFC36A52089D61C00D2DCC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0388E7DA1BE68B78826BDA46 /* Pods-RetriableSDWebImage iOS Example.debug.xcconfig */;
+			baseConfigurationReference = D2EF482EEBA14907AFA53FFA /* Pods-RetriableSDWebImage iOS Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1710,7 +1757,7 @@
 		};
 		0AFC36A62089D61C00D2DCC1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CFE25538B1DB074273B7ED0 /* Pods-RetriableSDWebImage iOS Example.release.xcconfig */;
+			baseConfigurationReference = 2E55BE35657DBF835EFA92B4 /* Pods-RetriableSDWebImage iOS Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1731,7 +1778,7 @@
 		};
 		0AFC36D62089D63B00D2DCC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BA777AC7D2CE9AAF85270A5 /* Pods-RetriableSDWebImage tvOS Example.debug.xcconfig */;
+			baseConfigurationReference = BF1C338906EBC26441CDE928 /* Pods-RetriableSDWebImage tvOS Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1754,7 +1801,7 @@
 		};
 		0AFC36D72089D63B00D2DCC1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FA17D6D0D4338DD1E27A7BF /* Pods-RetriableSDWebImage tvOS Example.release.xcconfig */;
+			baseConfigurationReference = 033E313B23241D74208E90EB /* Pods-RetriableSDWebImage tvOS Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1777,7 +1824,7 @@
 		};
 		0AFC36EB2089D64F00D2DCC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1F4A945F14BEEDD2551CB8B /* Pods-RetriableSDWebImage macOS Example.debug.xcconfig */;
+			baseConfigurationReference = 27F727C671C13DF8596DA2E0 /* Pods-RetriableSDWebImage macOS Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "RetriableSDWebImage macOS Example/RetriableSDWebImage macOS Example.entitlements";
@@ -1800,7 +1847,7 @@
 		};
 		0AFC36EC2089D64F00D2DCC1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DEE9883D7C5A653739EAAD1 /* Pods-RetriableSDWebImage macOS Example.release.xcconfig */;
+			baseConfigurationReference = AB90F5A4AC6A80B0A16A6861 /* Pods-RetriableSDWebImage macOS Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "RetriableSDWebImage macOS Example/RetriableSDWebImage macOS Example.entitlements";
@@ -1823,7 +1870,7 @@
 		};
 		0AFC37212089D6B800D2DCC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4EB2FD75CF948752053692D /* Pods-RetriableSDWebImage watchOS Example Extension.debug.xcconfig */;
+			baseConfigurationReference = 61CF7D6E30F2CB4CB12A7FED /* Pods-RetriableSDWebImage watchOS Example Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1847,7 +1894,7 @@
 		};
 		0AFC37222089D6B800D2DCC1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB4B5A5136C8E0D6B3F964F6 /* Pods-RetriableSDWebImage watchOS Example Extension.release.xcconfig */;
+			baseConfigurationReference = A146FF9DC19B159FF0E9E9EE /* Pods-RetriableSDWebImage watchOS Example Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
