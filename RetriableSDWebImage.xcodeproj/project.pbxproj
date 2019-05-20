@@ -1464,6 +1464,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1491,6 +1493,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1518,6 +1522,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1547,6 +1553,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1575,6 +1583,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1603,6 +1613,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1634,6 +1646,8 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1663,6 +1677,8 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableSDWebImage;
 				PRODUCT_NAME = RetriableSDWebImage;
 				PROVISIONING_PROFILE_SPECIFIER = "";
