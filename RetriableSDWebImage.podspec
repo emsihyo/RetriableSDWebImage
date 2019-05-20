@@ -13,6 +13,6 @@ Pod::Spec.new do |spec|
     spec.tvos.deployment_target = '9.0'
     spec.osx.deployment_target = '10.9'
     spec.ios.source_files = 'RetriableSDWebImage/*.{h,m}'
+    spec.dependency 'SDWebImage'
     spec.dependency 'Retriable'
-    spec.dependency 'SDWebImage'    
 end
