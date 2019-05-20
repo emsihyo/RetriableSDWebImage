@@ -41,14 +41,14 @@ target 'RetriableSDWebImage tvOS Example' do
     pod 'SDWebImage'
 end
 target 'RetriableSDWebImage macOS' do
-    platform :macos,'10.9'
+    platform :macos,'10.10'
     inhibit_all_warnings!
     use_frameworks!
     pod 'Retriable'
     pod 'SDWebImage'
 end
 target 'RetriableSDWebImage macOS Example' do
-    platform :macos,'10.9'
+    platform :macos,'10.10'
     inhibit_all_warnings!
     use_frameworks!
     pod 'Retriable'

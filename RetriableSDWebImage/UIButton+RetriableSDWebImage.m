@@ -45,7 +45,7 @@ static inline NSString * backgroundImageOperationKeyForState(UIControlState stat
         self.sd_imageURLStorage[imageURLKeyForState(state)] = url;
     }
     __weak typeof(self) weakSelf=self;
-    [self sd_internalSetImageWithURL:url placeholderImage:placeholder options:options operationKey:imageOperationKeyForState(state) setImageBlock:^(UIImage * image, NSData * imageData) {
+    [self sd_internalSetImageWithURL:url placeholderImage:placeholder options:options operationKey:imageOperationKeyForState(state) setImageBlock:^(UIImage * image, NSData * imageData,SDImageCacheType cacheType,NSURL *imageURL) {
         [weakSelf setImage:image forState:state];
     } progress:nil completed:completedBlock context:nil retryAfter:retryAfter];
 }
@@ -62,7 +62,7 @@ static inline NSString * backgroundImageOperationKeyForState(UIControlState stat
         self.sd_imageURLStorage[backgroundImageURLKeyForState(state)] = url;
     }
     __weak typeof(self) weakSelf=self;
-    [self sd_internalSetImageWithURL:url placeholderImage:placeholder options:options operationKey:backgroundImageOperationKeyForState(state) setImageBlock:^(UIImage * image, NSData * imageData) {
+    [self sd_internalSetImageWithURL:url placeholderImage:placeholder options:options operationKey:backgroundImageOperationKeyForState(state) setImageBlock:^(UIImage * image, NSData * imageData,SDImageCacheType cacheType,NSURL *imageURL) {
         [weakSelf setBackgroundImage:image forState:state];
     } progress:nil completed:completedBlock context:nil retryAfter:retryAfter];
 }

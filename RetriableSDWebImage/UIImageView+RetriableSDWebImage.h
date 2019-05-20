@@ -20,7 +20,7 @@
 - (void)sd_setImageWithURL:(NSURL * _Nullable)url
           placeholderImage:(UIImage * _Nullable)placeholder
                    options:(SDWebImageOptions)options
-                  progress:(SDWebImageDownloaderProgressBlock _Nullable)progressBlock
+                  progress:(SDImageLoaderProgressBlock _Nullable)progressBlock
                  completed:(SDExternalCompletionBlock _Nullable)completedBlock
                 retryAfter:(NSTimeInterval(^ _Nullable)(NSInteger currentRetryTime,NSError * _Nullable latestError))retryAfter;
 #if SD_MAC
@@ -28,7 +28,7 @@
 
 - (void)sd_setHighlightedImageWithURL:(NSURL * _Nullable)url
                               options:(SDWebImageOptions)options
-                             progress:(SDWebImageDownloaderProgressBlock _Nullable)progressBlock
+                             progress:(SDImageLoaderProgressBlock _Nullable)progressBlock
                             completed:(SDExternalCompletionBlock _Nullable)completedBlock
                            retryAfter:(NSTimeInterval(^ _Nullable)(NSInteger currentRetryTime,NSError * _Nullable latestError))retryAfter;
 #endif

@@ -31,7 +31,7 @@
 
 - (RetriableOperation*)loadImageWithURL:(NSURL *)url
                                 options:(SDWebImageOptions)options
-                               progress:(SDWebImageDownloaderProgressBlock)progressBlock
+                               progress:(SDImageLoaderProgressBlock)progressBlock
                               completed:(SDInternalCompletionBlock)completedBlock
                              retryAfter:(NSTimeInterval(^)(NSInteger currentRetryTime,NSError *latestError))retryAfter{
     __weak typeof(self) weakSelf=self;

@@ -20,9 +20,9 @@
                            options:(SDWebImageOptions)options
                       operationKey:(NSString * _Nullable)operationKey
                      setImageBlock:(SDSetImageBlock _Nullable)setImageBlock
-                          progress:(SDWebImageDownloaderProgressBlock _Nullable)progressBlock
+                          progress:(SDImageLoaderProgressBlock _Nullable)progressBlock
                          completed:(SDExternalCompletionBlock _Nullable)completedBlock
-                           context:(NSDictionary<NSString *, id> * _Nullable)context
+                           context:(NSDictionary<SDWebImageContextOption, id> * _Nullable)context
                         retryAfter:(NSTimeInterval(^ _Nullable)(NSInteger currentRetryTime,NSError * _Nullable latestError))retryAfter;
     
 @end

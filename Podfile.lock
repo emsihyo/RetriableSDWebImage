@@ -1,8 +1,8 @@
 PODS:
   - Retriable (1.0.3)
-  - SDWebImage (4.4.6):
-    - SDWebImage/Core (= 4.4.6)
-  - SDWebImage/Core (4.4.6)
+  - SDWebImage (5.0.3):
+    - SDWebImage/Core (= 5.0.3)
+  - SDWebImage/Core (5.0.3)
 
 DEPENDENCIES:
   - Retriable
@@ -15,8 +15,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Retriable: ed1ed6948190a057bf9b9b668fe95bef4e36c66d
-  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SDWebImage: d4f87d7d36c8a4d9f9459dc282e0caa057fdf935
 
-PODFILE CHECKSUM: a91fdfd33c6a0123d45304ae8391de5630d303cc
+PODFILE CHECKSUM: 98a8ce3f4cdcb28ccea762908b120aaf39f94634
 
 COCOAPODS: 1.6.1

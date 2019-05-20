@@ -13,7 +13,7 @@
 
 - (RetriableOperation* _Nullable)loadImageWithURL:(NSURL *_Nullable)url
                                 options:(SDWebImageOptions)options
-                               progress:(SDWebImageDownloaderProgressBlock _Nullable)progressBlock
+                               progress:(SDImageLoaderProgressBlock _Nullable)progressBlock
                               completed:(SDInternalCompletionBlock _Nullable)completedBlock
                              retryAfter:(NSTimeInterval(^ _Nullable)(NSInteger currentRetryTime,NSError * _Nullable latestError))retryAfter;
 

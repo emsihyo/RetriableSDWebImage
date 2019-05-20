@@ -34,19 +34,19 @@
                            options:(SDWebImageOptions)options
                       operationKey:(NSString *)operationKey
                      setImageBlock:(SDSetImageBlock)setImageBlock
-                          progress:(SDWebImageDownloaderProgressBlock)progressBlock
+                          progress:(SDImageLoaderProgressBlock)progressBlock
                          completed:(SDExternalCompletionBlock)completedBlock
-                           context:(NSDictionary<NSString *, id> *)context retryAfter:(NSTimeInterval(^)(NSInteger currentRetryTime,NSError *latestError))retryAfter {
+                           context:(NSDictionary<SDWebImageContextOption, id> *)context retryAfter:(NSTimeInterval(^)(NSInteger currentRetryTime,NSError *latestError))retryAfter {
     NSString *validOperationKey = operationKey ?: NSStringFromClass([self class]);
     [(RetriableOperation*)self.retriable_sd_operations[validOperationKey] cancel];
     __weak typeof(self) weakSelf=self;
     self.retriable_sd_operations[validOperationKey]=[[RetriableOperation alloc]initWithCompletion:^(RetriableSDWebImageResponse* response, NSError *latestError) {
         if (completedBlock) completedBlock(response.image,latestError,response.cacheType,response.imageURL);
     } retryAfter:retryAfter start:^(void (^callback)(RetriableSDWebImageResponse * response, NSError *error)) {
-        [weakSelf sd_internalSetImageWithURL:url placeholderImage:placeholder options:options operationKey:validOperationKey setImageBlock:setImageBlock progress:progressBlock completed:^(UIImage * image, NSError * error, SDImageCacheType cacheType, NSURL * imageURL) {
+        [weakSelf sd_internalSetImageWithURL:url placeholderImage:placeholder options:options context:context setImageBlock:setImageBlock progress:progressBlock completed:^(UIImage * _Nullable image, NSData * _Nullable data, NSError * _Nullable error, SDImageCacheType cacheType, BOOL finished, NSURL * _Nullable imageURL) {
             RetriableSDWebImageResponse *response=[[RetriableSDWebImageResponse alloc]initWithImage:image cacheType:cacheType imageURL:imageURL data:nil finished:YES];
             callback(response,error);
-        } context:context];
+        }];
     } cancel:^ {
         [weakSelf sd_cancelImageLoadOperationWithKey:validOperationKey];
     } cancelledErrorTemplates:nil];
