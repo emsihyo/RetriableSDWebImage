@@ -17,14 +17,14 @@
 - (void)sd_setImageWithURL:(NSURL * _Nullable)url
           placeholderImage:(UIImage * _Nullable)placeholder
                    options:(SDWebImageOptions)options
-                  progress:(SDWebImageDownloaderProgressBlock _Nullable)progressBlock
+                  progress:(SDImageLoaderProgressBlock _Nullable)progressBlock
                  completed:(SDExternalCompletionBlock _Nullable)completedBlock
                 retryAfter:(NSTimeInterval(^ _Nullable)(NSInteger currentRetryTime,NSError * _Nullable latestError))retryAfter;
 
 - (void)sd_setAlternateImageWithURL:(NSURL * _Nullable)url
                    placeholderImage:(UIImage * _Nullable)placeholder
                             options:(SDWebImageOptions)options
-                           progress:(SDWebImageDownloaderProgressBlock _Nullable)progressBlock
+                           progress:(SDImageLoaderProgressBlock _Nullable)progressBlock
                           completed:(SDExternalCompletionBlock _Nullable)completedBlock
                          retryAfter:(NSTimeInterval(^ _Nullable)(NSInteger currentRetryTime,NSError * _Nullable latestError))retryAfter;
 

@@ -24,7 +24,7 @@ static inline NSString * alternateImageOperationKey() {
 - (void)sd_setImageWithURL:(NSURL *)url
           placeholderImage:(UIImage *)placeholder
                    options:(SDWebImageOptions)options
-                  progress:(SDWebImageDownloaderProgressBlock)progressBlock
+                  progress:(SDImageLoaderProgressBlock)progressBlock
                  completed:(SDExternalCompletionBlock)completedBlock
                 retryAfter:(NSTimeInterval(^)(NSInteger currentRetryTime,NSError *latestError))retryAfter{
     self.sd_currentImageURL = url;
@@ -34,7 +34,7 @@ static inline NSString * alternateImageOperationKey() {
                     placeholderImage:placeholder
                              options:options
                         operationKey:imageOperationKey()
-                       setImageBlock:^(NSImage * image, NSData * imageData) {
+                       setImageBlock:^(NSImage * image, NSData * imageData,SDImageCacheType cacheType,NSURL *imageURL) {
                            weakSelf.image = image;
                        }
                             progress:progressBlock
@@ -44,7 +44,7 @@ static inline NSString * alternateImageOperationKey() {
 - (void)sd_setAlternateImageWithURL:(NSURL *)url
                    placeholderImage:(UIImage *)placeholder
                             options:(SDWebImageOptions)options
-                           progress:(SDWebImageDownloaderProgressBlock)progressBlock
+                           progress:(SDImageLoaderProgressBlock)progressBlock
                           completed:(SDExternalCompletionBlock)completedBlock
                          retryAfter:(NSTimeInterval(^)(NSInteger currentRetryTime,NSError *latestError))retryAfter{
     self.sd_currentAlternateImageURL = url;
@@ -54,7 +54,7 @@ static inline NSString * alternateImageOperationKey() {
                     placeholderImage:placeholder
                              options:options
                         operationKey:alternateImageOperationKey()
-                       setImageBlock:^(NSImage * image, NSData * imageData) {
+                       setImageBlock:^(NSImage * image, NSData * imageData,SDImageCacheType cacheType,NSURL *imageURL) {
                            weakSelf.alternateImage = image;
                        }
                             progress:progressBlock
