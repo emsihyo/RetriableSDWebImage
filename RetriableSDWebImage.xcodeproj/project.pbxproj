@@ -1011,7 +1011,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Retriable-tvOS/Retriable.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage-tvOS/SDWebImage.framework",
 			);
@@ -1022,7 +1022,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage tvOS Example/Pods-RetriableSDWebImage tvOS Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		973EAE74EA2BD03A70EEF925 /* [CP] Check Pods Manifest.lock */ = {
@@ -1049,7 +1049,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Retriable-macOS/Retriable.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage-macOS/SDWebImage.framework",
 			);
@@ -1060,7 +1060,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage macOS Example/Pods-RetriableSDWebImage macOS Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A6BDBB73687145AA1D137F5A /* [CP] Check Pods Manifest.lock */ = {
@@ -1105,7 +1105,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Retriable-watchOS/Retriable.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage-watchOS/SDWebImage.framework",
 			);
@@ -1116,7 +1116,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage watchOS Example Extension/Pods-RetriableSDWebImage watchOS Example Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6F5A9D19D667016E696BDBF /* [CP] Check Pods Manifest.lock */ = {
@@ -1143,7 +1143,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Retriable-iOS/Retriable.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage-iOS/SDWebImage.framework",
 			);
@@ -1154,7 +1154,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RetriableSDWebImage iOS Example/Pods-RetriableSDWebImage iOS Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

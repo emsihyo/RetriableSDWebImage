@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name     = 'RetriableSDWebImage'
-    spec.version  = '1.0.3'
+    spec.version  = '1.0.4'
     spec.license  = 'MIT'
     spec.summary  = 'Retriable SDWebImage'
     spec.homepage = 'https://github.com/retriable/RetriableSDWebImage'

@@ -1,22 +1,22 @@
 PODS:
-  - Retriable (1.0.0)
-  - SDWebImage (4.3.3):
-    - SDWebImage/Core (= 4.3.3)
-  - SDWebImage/Core (4.3.3)
+  - Retriable (1.0.3)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
 
 DEPENDENCIES:
   - Retriable
   - SDWebImage
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Retriable
     - SDWebImage
 
 SPEC CHECKSUMS:
-  Retriable: 1f0a7df96ec22ae74125d1168c6fec9fc30d4330
-  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  Retriable: ed1ed6948190a057bf9b9b668fe95bef4e36c66d
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
 
 PODFILE CHECKSUM: a91fdfd33c6a0123d45304ae8391de5630d303cc
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.6.1
